@@ -1,0 +1,27 @@
+body {
+	color: #363636;
+	background-color: #ffffff;
+	font-family: interstate-light;
+	text-align: center;
+}
+
+h1 {
+	font-size: 42pt;
+	text-transform: uppercase;
+}
+
+hr {
+	width: 200px;
+}
+
+h2 {
+	font-size: 18pt;
+	font-weight: 500;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    
+}
+
