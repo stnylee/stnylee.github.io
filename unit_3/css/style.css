@@ -1,7 +1,7 @@
 body {
 	color: #363636;
 	background-color: #ffffff;
-	font-family: interstate-light;
+	font-family: "Droid sans", sans-serif;
 	text-align: center;
 }
 
@@ -20,8 +20,10 @@ h2 {
 }
 
 ul {
-    text-align: center;
+	border: 0px;
     list-style-type: none;
+    padding-left: 0;
+    text-align: center;
     
 }
 
