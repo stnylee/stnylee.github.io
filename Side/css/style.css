@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Sintony);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+
+header {
+	padding-left: 7em;
+	padding-top: 1em;
+}
+
+body {
+	color: #363636;
+	background-color: #ffffff;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: left;
+}
+
+#stevelee {
+	font-size: 2em;
+	font-family: 'Sintony', sans-serif;
+	font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    display: inline;
+    padding-right: 5em;
+}
+
+#nav a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	color: #6C6C6C;
+	text-decoration: none;
+}
+
+#main {
+	margin-left: 0
+	color: #000;
+}
