@@ -29,17 +29,18 @@ footer {background-color: #FF957E;
     padding: 20px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 #stevelee {
 	font-size: 2em;
 	font-family: 'Sintony', sans-serif;
 	font-weight: 500;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
 #nav li {
     display: inline;
