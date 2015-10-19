@@ -62,6 +62,30 @@ header a:hover {
 	font-weight: 200;
 }
 
+footer li {
+	color: #ffffff;
+    display: block;
+    padding-right: 5em;
+}
+
+footer a:link {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 200;
+}
+
+footer a:visited {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 200;
+}
+
+footer a:hover {
+	color: #D1D1D1;
+	text-decoration: none;
+	font-weight: 200;
+}
+
 #aboutmelink {
 	font-weight: 400;
 	text-align: center;
@@ -99,30 +123,6 @@ header a:hover {
 
 #bottom {
 	display: inline-block;
-}
-
-footer li {
-	color: #ffffff;
-    display: block;
-    padding-right: 5em;
-}
-
-footer a:link {
-	color: #fff;
-	text-decoration: none;
-	font-weight: 200;
-}
-
-footer a:visited {
-	color: #fff;
-	text-decoration: none;
-	font-weight: 200;
-}
-
-footer a:hover {
-	color: #D1D1D1;
-	text-decoration: none;
-	font-weight: 200;
 }
 
 .floatleft {
