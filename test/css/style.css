@@ -44,14 +44,11 @@ a {
 }
 
 a:visited {
-
 	text-decoration: none;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 #topname {
@@ -63,7 +60,6 @@ ul {
 }
 
 #nav a {
-    display: block;
     float: left;
     padding: 0 5em 2em 0;
 }
@@ -152,12 +148,6 @@ ul {
 	width: 70px;
 }
 
-/*#floatright {
-	float: right; 
-	margin: 0; 
-	display: inline-block;
-}
-*/
 #linkedin {
 	display: inline-block;
 	float: right; 
