@@ -200,17 +200,17 @@ ul {
     height: 0;
 }
 
-#firstpic figure {
+#firstpic {
   width:100%;
   position:relative;
   margin:auto;
 }
 
-#theclub figcaption {
+#theclub {
 	 display: none;
 }
 
-#firstpic figure:hover > #theclub figcaption{
+#firstpic:hover > #theclub {
   display:block;
    height:100%;
   width:100%;
