@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700,500,400);
 
 * {
 padding: 0;
@@ -16,7 +16,9 @@ body {
 }
 
 header {
-	padding: 3em 6em 0 6em;
+	padding: 3em 0 0 0;
+	background-color: #000
+	color: #fff;
 }
 
 footer {
@@ -28,14 +30,14 @@ footer {
 
 h1 {
 	font-size: 2em;
-	font-family: 'Roboto', serif;
-	font-weight: 700;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
 }
 
 h2 {
 	font-size: 1.5em;
-	font-family: 'Roboto', serif;
-	font-weight: 700;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
 }
 
 a {
@@ -52,16 +54,21 @@ ul {
 }
 
 #topname {
+	text-align: center;
 	padding-bottom: 1em;
 }
 
-#nav {
-	padding: 0 6em 4em 6em;
+#work {
+	margin-right: 2em;
 }
 
-#nav a {
-    float: left;
-    padding: 0 5em 3em 0;
+#about {
+	margin-left: 2em;
+}
+
+#nav {
+	margin: 0 0 4em 0;
+	text-align: center;
 }
 
 #nav a:link {
@@ -95,13 +102,13 @@ ul {
 }
 
 #firstpic img {
-	margin-top: -5px;
+	margin-top: -1px;
 }
 
 #secondsection {
 	color: #000;
 	background-color: #fff;
-	padding: 2em 6em 2em 6em;
+	padding: 2vw 6vw 2vw 6vw;
 	text-align: center;
 }
 
@@ -111,6 +118,7 @@ ul {
 
 #aboutmelink {
 	font-weight: 400;
+	font-size: 2.5vmin;
 	padding: 2em 0 1em 0;
 }
 
@@ -191,6 +199,6 @@ ul {
     height: 0;
 }
 
-.hoverpic:hover {
+.hoverpic:hover img{
   opacity: 0.5;
 }
