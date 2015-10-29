@@ -197,7 +197,3 @@ ul {
     clear: both;
     height: 0;
 }
-
-.hoverpic:hover img{
-  opacity: 0.5;
-}
