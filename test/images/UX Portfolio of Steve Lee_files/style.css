@@ -10,7 +10,7 @@ body {
 	color: #363636;
 	background-color: #ffffff;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 200;
 	margin: 0;
 	text-align: left;
@@ -25,7 +25,8 @@ header {
 footer {
 	background-color: #000;
 	color: #ffffff;
-	padding: 5% 6% 11% 6%;
+	height: 2em;
+	padding: 5% 6% 8% 6%;
 }
 
 h1 {
@@ -122,17 +123,17 @@ ul {
 	padding-top: 4%;
 }
 
-#footernav a:link {
+.footernav a:link {
 	color: #fff;
 	font-weight: 200;
 }
 
-#footernav a:visited {
+.footernav a:visited {
 	color: #fff;
 	font-weight: 200;
 }
 
-#footernav a:hover {
+.footernav a:hover {
 	color: #D1D1D1;
 	font-weight: 200;
 }
@@ -143,10 +144,6 @@ ul {
 	width: %;
 	padding: 1em 5em 1.5em 0;
 }
-
-#sl {
-	display: none;
-	}
 
 #floatleft {
 	float: left; 
@@ -217,7 +214,7 @@ figure {
 	font-weight: 300;
 	text-align:center;
 	color:#fff;
-	padding:18% 0 0;
+	padding:20% 0 0;
  }
 
   #secondpic:hover > #safeway {
@@ -232,12 +229,12 @@ figure {
 	font-weight: 300;
 	text-align:center;
 	color:#fff;
-	padding:18% 0 0;
+	padding:20% 0 0;
  }
 
   #thirdpic:hover > #jogging {
 	display:block;
-	height:58.7%;
+	height:54.4%;
 	width:100%;
 	background-color:rgba(0,0,0,0.5);
 	position:absolute;
@@ -247,91 +244,5 @@ figure {
 	font-weight: 300;
 	text-align:center;
 	color:#fff;
-	padding: 18% 0 0;
+	padding: 20% 0 0;
  }
-
- @media only screen and (max-width: 450px) {
- 	#topname {
- 		float: left;
- 		text-align: left;
- 		font-size: 0.75em;
- 		padding: 0 0 1em 2em;
- 		height: 30px;
- 		width: 140px;
- 	}
-
- 	#nav {
- 		float: right;
- 		text-align: right;
- 		display: inline-block;
- 		height: 25px:
- 		width: 150px;
- 		padding-left: 4.69em;
- 		padding-top: 0.5em;
- 	}
-
- 	header {
- 		display: inline-block;
- 	}
-
- 	#secondsection {
- 		padding: 0.5em 1em 1.5em 1em;
- 	}
-
- 	#me {
- 		font-size: 1em;
- 	} 
-
- 	#firstpic:hover > #club  {
- 		font-size: 1.5em;
- 	}
-
- 	#secondpic:hover > #safeway {
- 	 	font-size: 1.5em;
- 	}
-	
-	#thirdpic:hover > #jogging {
-		font-size: 1.5em;
-	}
-
-	#aboutmelink {
-		display: none;
-	}
-
-	#footernav {
-		display: none;
-	}
-
-	#sl {
-	float: left; 
-	margin: 0; 
-	width: %;
-	padding: 1em 5em 1.5em 0;
-	}
-
-	#floatleftname {
-		display: none;
-	}
-
-	#linkedin {
-		display: inline-block;
-		margin: 0; 
-		float:left;
-		width: 2em;
-	}
-
-	#twitter {
-		display: inline-block;
-		margin: 0; 
-		width: 2.9em;
-	}
-
-	#behance {
-		display: inline-block;
-		margin: 0; 
-		width: 3em;
-	}
- }
-
-
- 
