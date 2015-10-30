@@ -250,7 +250,7 @@ figure {
 	padding: 18% 0 0;
  }
 
- @media only screen and (max-width: 1000px) {
+ @media only screen and (max-width: 700px) {
  	#topname {
  		float: left;
  		text-align: left;
@@ -266,7 +266,7 @@ figure {
  		display: inline-block;
  		height: 25px:
  		width: 150px;
- 		padding-left: 4.69em;
+ 		padding-left: 6.9em;
  		padding-top: 0.5em;
  	}
 
@@ -317,19 +317,28 @@ figure {
 		display: inline-block;
 		margin: 0; 
 		float:left;
-		width: 2em;
+		width: 1.6em;
+		padding-right: 0;
+		padding-top: 1.1em;
 	}
 
 	#twitter {
 		display: inline-block;
 		margin: 0; 
 		width: 2.9em;
+		float: left;
 	}
 
 	#behance {
 		display: inline-block;
 		margin: 0; 
 		width: 3em;
+		float: left;
+	}
+
+	footer {
+		padding-bottom: 5em;
+		padding-left: 33%;
 	}
  }
 
