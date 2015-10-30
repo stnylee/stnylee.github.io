@@ -250,7 +250,7 @@ figure {
 	padding: 18% 0 0;
  }
 
- @media only screen and (max-width: 550px) {
+ @media only screen and (max-width: 667px) {
  	#topname {
  		float: left;
  		text-align: left;
