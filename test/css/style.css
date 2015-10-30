@@ -17,7 +17,7 @@ body {
 }
 
 header {
-	padding: 4% 0 0 0;
+	padding: 2em 0 0 0;
 	background-color: #000
 	color: #fff;
 }
@@ -67,7 +67,7 @@ ul {
 }
 
 #nav {
-	margin: 0 0 4.5% 0;
+	margin: 0 0 3em 0;
 	text-align: center;
 }
 
@@ -255,32 +255,29 @@ figure {
  		float: left;
  		text-align: left;
  		font-size: 1em;
- 		padding: 0 0 1em 2em;
- 		height: 30px;
- 		width: 180px;
+ 		padding: 0.7em 0 0 1em;
  	}
 
  	#nav {
  		float: right;
- 		text-align: right;
+ 	 	text-align: right;
  		display: inline-block;
- 		height: 25px:
- 		width: 150px;
- 		padding-left: 4.5em;
- 		padding-top: 0.1em;
+ 		padding: 0.5em 0.5em 0.5em 0;
  		font-size: 2em;
+ 		margin: 0;
  	}
 
  	#work {
-	margin-right: 1em;
+	margin-right: 0.5em;
 	}
 
 	#about {
-	margin-left: 1em;
+	margin-left: 0;
 	}
 
  	header {
- 		display: inline-block;
+ 		display: inline;
+ 		padding: 0;
  	}
 
  	#secondsection {
@@ -336,6 +333,7 @@ figure {
 		margin: 0; 
 		width: 2.9em;
 		float: left;
+		padding-right: 1.2em;
 	}
 
 	#behance {
@@ -343,6 +341,7 @@ figure {
 		margin: 0; 
 		width: 3em;
 		float: left;
+		padding-left: 0.1em;
 	}
 
 	footer {
