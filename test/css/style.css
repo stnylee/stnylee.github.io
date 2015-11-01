@@ -233,7 +233,19 @@ footer {
 	padding: 18% 0 0;
  }
 
- @media /*only*/ screen and (max-width: 400px) {
+ @media only screen 
+/* and (max-width: 500px) */
+ and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (width : 375px) 
+    and (height : 559px)
+    and (orientation : portrait) 
+    and (color : 8)
+    and (device-aspect-ratio : 375/667)
+    and (aspect-ratio : 375/559)
+    and (device-pixel-ratio : 2)
+    and (-webkit-min-device-pixel-ratio : 2)
+ {
  	#topname {
  		float: left;
  		text-align: left;
