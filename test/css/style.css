@@ -233,11 +233,8 @@ footer {
 	padding: 18% 0 0;
  }
 
- @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 2)
+ @media only screen and (max-width: 600px) 
+
  {
  	#topname {
  		float: left;
