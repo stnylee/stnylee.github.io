@@ -2,53 +2,41 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>UX Portfolio of Steve Lee</title>
 </head>
 <body>
 	<header class="clearfix">
 		<div id="topname">
-			<h1><a href="#">Steve Lee</a></h1>
+			<span id="stevelee"><a href="#">STEVE LEE</a></span><span id="uxdesign">UX Design</span>
 		</div>
-		<nav id="nav">
-		<a href="#" class="menu">work</a>
-		<a href="#" class="menu">about</a>
-		</nav>
+	<div id="floatright">
+		<div id="blog" class="menu"><a href="#">BLOG</a></div>
+		<div id="about" class="menu"><a href="#">ABOUT</a></div>
+		<div id="work" class="menu"><a href="#">WORK</a></div>
+	</div>
 	</header>
 	<section id="firstsection" class="clearfix"> 
-		<figure id="firstpic">
-			<img src="images/club.jpg">
-			<figcaption id="club"><a href="#">Eventful</a></figcaption>
-		</figure>
-		<figure id="secondpic">
-			<img src="images/safeway.jpg">
-			<figcaption id="safeway"><a href="#">Safeway Express</a></figcaption>
-		</figure>
-		<figure id="thirdpic">
-			<img src="images/jogging.jpg">
-			<figcaption id="jogging"><a href="#">Jog</a></figcaption>
-		</figure>
+		<div class="card card-1"></div>
+		<div class="card card-1"></div>
+		<div class="card card-1"></div>
 	</section>
 	<section id="secondsection"> 
-	 	<p>My name is Steve, a UX designer based in San Francisco. I'm ready to take on the next big challenge.</p>
-		<p id="aboutmelink"><a href="#" id="aboutmelink">about</a></p>
+		<p>My name is Steve. I'm a UX designer based in San Francisco, CA and I'm ready to take on the next big challenge.</p>
+		<div id="aboutmelink"><a href="#">ABOUT</a></div>
 	</section>
 	<footer>
-		 	<div id="footername">
-		 		<h2><a href="#">Steve Lee</a></h2>
-		 	</div>
-			<nav id="footernav">
-				<ul>
-					<li><a href="#">work</a></li>
-					<li><a href="#">about</a></li>
-					<li><a href="#">resume</a></li>
-				</ul>
-			</nav>
 		<div id="socialmedia">
-		<a href="#"><img src="images/behance.png" id="behance"></a>
-		<a href="#"><img src="images/twitter.png" id="twitter"></a>
-		<a href="#"><img src="images/linkedin.png" id="linkedin"></a>
+		<a href="#"><img src="images/linkedin.png"></a>
+		<a href="#"><img src="images/behance.png"></a>
+		<a href="#"><img src="images/twitter.png"></a>
+		<a href="#"><img src="images/instagram.png"></a>
 		</div>
+		<nav id="contact">
+		<span id="resume" class="menu"><a href="#">RESUME</a></span>
+		<span id="email" class="menu"><a href="#">EMAIL</a></span>
+		</nav>
+		<div id="credit"><p>Made with HTML5/CSS3</p></div>
 	</footer>
 </body>
 </html>
