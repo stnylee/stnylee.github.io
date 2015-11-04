@@ -1,0 +1,346 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+
+* {
+padding: 0;
+margin: 0;
+}
+
+body {
+	color: #363636;
+	background-color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+	text-align: left;
+}
+
+header {
+/*	padding: 2em 0 0 0;*/
+	background-color: #212121;
+	color: #f5f5f5;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+
+}
+
+nav a:hover {
+	color: #D1D1D1;
+}
+
+footer {
+	background-color: #212121;
+	color: #fff;
+	width: 100%;
+	height: 100px;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#topname {
+/*	background-color: #423233;
+*/	width: 300px;
+	float: left;
+	padding: 14px 0 14px 60px;
+}
+
+#stevelee {
+	font-size: 1.5em;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+	padding-right: 14px;
+}
+
+#uxdesign {
+	font-weight: 100;
+	font-size: 1.5em;
+}
+
+ {
+	float: right;
+	width: 284px;
+/*	background-color: #ff0000;
+*/}
+
+.menu {
+/*	margin: 0 1em 0 2em;*/
+	font-weight: 500;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+}
+
+#floatright {
+	padding: 0;
+	margin: 0;
+}
+
+#blog {
+	float: right;
+	padding: 20px 20px 20px 20px;
+	margin-right: 40px;
+
+}
+
+#blog:hover {
+	background-color: #00BCD4;
+	color: #e0e0e0;
+}
+
+#work {
+	float: right;
+	padding: 20px 20px 20px 20px;
+}
+
+#work:hover {
+	background-color: #00BCD4;
+}
+
+#about {
+	float: right;
+	padding: 20px 20px 20px 20px;
+}
+
+#about:hover {
+	background-color: #00BCD4;
+
+}
+
+#firstsection {
+    text-align:center;
+    width:100%;
+    padding: 20px 0 20px 0;
+}
+
+.card {
+	border-radius: 2px;
+    float: left;
+    margin:20px 0 20px 0;
+    width: 740px;
+    height: 400px;
+	background: #fff;
+}
+
+.centerwrapper {
+    margin: auto;
+    width: 740px;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+.card-1:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#secondsection {
+	color: #424242;
+	background-color: #e0e0e0;
+	height: 80px;
+	text-align: center;
+	padding: 30px;
+
+}
+
+#aboutmelink {
+	background-color: #00BCD4;
+	border-radius: 2px;
+	color: #fafafa;
+	padding: 5px;
+	height: 20px;
+	width: 70px;
+	position: absolute;
+	margin: 30px auto 0 auto;
+	line-height: 20px;
+	left: 0;
+	right: 0;
+	font-weight: 400;
+	font-size: 0.8em;
+	letter-spacing: 0.5px;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.26);
+}
+
+#aboutmelink:hover {
+	box-shadow: 0 3px 9px rgba(0,0,0,0.12), 0 3px 9px rgba(0,0,0,0.24);
+    transition: all 0.2s ease-in-out;
+}	
+
+#socialmedia {
+	float: left;
+	padding: 40px 0 0 60px;
+/*	background-color: #fff000;
+*/	width: 220px;
+}
+
+#socialmedia img {
+	height: 20px;
+	padding: 0 15px 0 15px;
+}
+
+#contact {
+	float:right;
+	padding: 43px 60px 0 0;
+	width: 143px;
+/*	background-color: #00ff00;
+*/
+}
+
+#resume {
+	padding-right: 40px;
+}
+
+#credit {
+	color: #fafafa;
+	height: 15px;
+	width: 150px;
+	text-align: center;
+	position: absolute;
+	margin: 45px auto 0 auto;
+	left: 0;
+	right: 0;
+	font-size: 0.8em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+ @media only screen and (max-width: 797px) 
+
+ {	#secondsection {
+ 		padding: 1.5em 1em 3em 1em;
+ 	}
+
+	#aboutmelink {
+		margin: 24px auto 0 auto;
+	}
+
+	#footername {
+		display: none;
+	}
+
+	#credit {
+		display: none;
+	}
+
+	footer {
+		height: 130px;
+		text-align:center;
+    	width:100%;
+	}
+
+	#contact {
+		float: none;
+		display: inline;
+		margin: 0 auto;
+		padding: 40px 0 0 0;
+		height: 20px;
+		width: 180px;
+	}
+
+	#resume {
+	padding-right: 20px;
+	}
+
+	#email {
+		padding-left: 20px;
+	}
+
+	#socialmedia {
+	float: none;
+	margin: 0 auto;
+	padding: 34px 0 30px 0;
+	height: 20px;
+	width: 339px;
+	}
+
+	#socialmedia img {
+		padding: 0 30px 0 30px;
+	}
+
+	.card {
+	border-radius: 2px;
+    float: left;
+    margin:10px 0 10px 0;
+    width: 400px;
+    height: 400px;
+	background: #fff;
+	}
+
+	.centerwrapper {
+    margin: auto;
+    width: 400px;
+	}
+
+	#floatright {
+	float: none;
+	margin: 0 auto;
+	height: 40px;
+	width: 246px;
+/*	background-color: #00ff00;
+*/
+}
+
+#blog {
+	margin-right: 0;
+}
+
+#topname {
+	float: none;
+	margin: auto;
+	height: 20px;
+	width: 250px;
+	padding: 14px 0 19px 0;
+
+}
+
+	header {
+		height: 109px;
+		text-align:center;
+    	width:100%;
+	}
+
+
+ @media only screen and (max-width: 500px) 
+
+ {
+ .card {
+	border-radius: 2px;
+    float: left;
+    margin:10px 0 10px 0;
+    width: 300px;
+    height: 300px;
+	background: #fff;
+	}
+
+	.centerwrapper {
+    margin: auto;
+    width: 300px;
+	}
+
+
+
+}
+
+ 
