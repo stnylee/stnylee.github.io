@@ -10,7 +10,7 @@ body {
 	background-color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: 400;
 	margin: 0;
 	text-align: left;
 }
@@ -19,6 +19,8 @@ header {
 /*	padding: 2em 0 0 0;*/
 	background-color: #212121;
 	color: #f5f5f5;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+
 }
 
 nav a:hover {
@@ -53,32 +55,33 @@ ul {
 #topname {
 /*	background-color: #423233;
 */	width: 300px;
-	font-size: 1.5em;
 	float: left;
 	padding: 14px 0 14px 60px;
-	font-weight: 100;
 }
 
 #stevelee {
+	font-size: 1.5em;
+	letter-spacing: 0.5px;
 	font-weight: 500;
 	padding-right: 14px;
 }
 
 #uxdesign {
-	font-weight: 200;
+	font-weight: 100;
+	font-size: 1.5em;
 }
+
+#floatright {
+	float: right;
+	width: 284px;
+/*	background-color: #ff0000;
+*/}
 
 .menu {
 /*	margin: 0 1em 0 2em;*/
 	font-weight: 500;
 	font-size: 0.8em;
-}
-
-#nav {
-	padding: 20px 60px 0 0;
-/*	background-color: #ff0000;
-*/	width: 120px;
-	float: right;
+	letter-spacing: 1px;
 }
 
 #blog {
@@ -89,7 +92,7 @@ ul {
 }
 
 #blog:hover {
-	background-color: #00ACC1;
+	background-color: #00BCD4;
 	color: #e0e0e0;
 }
 
@@ -99,8 +102,7 @@ ul {
 }
 
 #work:hover {
-	background-color: #00ACC1;
-	color: #e0e0e0;
+	background-color: #00BCD4;
 }
 
 #about {
@@ -109,36 +111,37 @@ ul {
 }
 
 #about:hover {
-	background-color: #00ACC1;
-	color: #e0e0e0;
-
-}
-
-#about:hover {
 	background-color: #00BCD4;
-}
 
+}
 
 #firstsection {
-	width: 70%;
-	margin: 10px auto;
-	position: relative;
-	text-align: center;
+    text-align:center;
+    width:100%;
+    padding: 20px 0 20px 0;
 }
 
 .card {
-  background: #fff;
-  border-radius: 2px;
-  display: block;
-  float: left;
-  height: 300px;
-  margin: 1em;
-  position: relative;
-  width: 300px;
+	border-radius: 2px;
+    float: left;
+    margin:20px 0 20px 0;
+    width: 740px;
+    height: 400px;
+	background: #fff;
+}
+
+.centerwrapper {
+    margin: auto;
+    width: 740px;
 }
 
 .card-1 {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+.card-1:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 #secondsection {
@@ -146,44 +149,51 @@ ul {
 	background-color: #e0e0e0;
 	height: 80px;
 	text-align: center;
-	font-weight: 400;
 	padding: 30px;
+
 }
 
 #aboutmelink {
-	background-color: #00ACC1;
+	background-color: #00BCD4;
+	border-radius: 2px;
 	color: #fafafa;
 	padding: 5px;
-	height: 15px;
-	width: 45px;
+	height: 20px;
+	width: 70px;
 	position: absolute;
 	margin: 30px auto 0 auto;
+	line-height: 20px;
 	left: 0;
 	right: 0;
 	font-weight: 400;
 	font-size: 0.8em;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23);
+	letter-spacing: 0.5px;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.26);
 }
 
 #aboutmelink:hover {
-	background-color:#00BCD4;
-}
+	box-shadow: 0 3px 9px rgba(0,0,0,0.12), 0 3px 9px rgba(0,0,0,0.24);
+    transition: all 0.2s ease-in-out;
+}	
 
 #socialmedia {
 	float: left;
 	padding: 40px 0 0 60px;
 /*	background-color: #fff000;
-*/	width: 145px;
+*/	width: 220px;
 }
 
 #socialmedia img {
 	height: 20px;
-	padding: 0 5px 0 5px;
+	padding: 0 15px 0 15px;
 }
 
 #contact {
 	float:right;
 	padding: 43px 60px 0 0;
+	width: 143px;
+/*	background-color: #00ff00;
+*/
 }
 
 #resume {
@@ -199,10 +209,7 @@ ul {
 	margin: 45px auto 0 auto;
 	left: 0;
 	right: 0;
-	font-weight: 300;
 	font-size: 0.8em;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23);
-
 }
 
 .clearfix:after {
@@ -214,82 +221,42 @@ ul {
     height: 0;
 }
 
-/*
- #firstpic:hover > #club {
-	display:block;
-	height:100%;
-	width:100%;
-	background-color:rgba(0,0,0,0.5);
-	position:absolute;
-	top:0;
-	left:0;
-	font-size: 2.5em;
-	font-weight: 300;
-	text-align:center;
-	color:#fff;
-	padding:18% 0 0;
- }*/
+ @media only screen and (max-width: 797px) 
 
- /*@media only screen and (max-width: 600px) 
-
- {
- 	#topname {
- 		float: left;
- 		text-align: left;
- 		font-size: 1em;
- 		padding: 0.4em 0 0.4em 0.8em;
+ {	#secondsection {
+ 		padding: 1.5em 1em 3em 1em;
  	}
-
- 	#nav {
- 		float: right;
- 		padding: 1.2em 0 0.5em 0;
- 		font-size: 1em;
- 		margin: 0;
- 	}
-
- 	header {
- 		display: inline;
- 		padding: 0;
- 	}
-
- 	h1 {
- 		font-size: 2em;
- 	}
-
- 	#secondsection {
- 		padding: 1.5em 1em 1.5em 1em;
- 		font-size: 1em;
- 	}
-
- 	#firstpic:hover > #club  {
- 		font-size: 1.5em;
- 	}
-
- 	#secondpic:hover > #safeway {
- 	 	font-size: 1.5em;
- 	}
-	
-	#thirdpic:hover > #jogging {
-		font-size: 1.5em;
-	}
 
 	#aboutmelink {
-	font-size: 1em;
-	font-weight: 400;
-	padding: 1em 0 0 0;
+		margin: 24px auto 0 auto;
 	}
 
 	#footername {
 		display: none;
 	}
 
-	#footernav {
+	#credit {
 		display: none;
 	}
 
 	footer {
-		height: 70px;
+		height: 130px;
+		text-align:center;
+    	width:100%;
 	}
+
+	#contact {
+		float: none;
+		display: inline;
+		margin: 0 auto;
+		padding: 30px 0 0 0;
+		height: 20px;
+		width: 144px;
+	}
+
+	#resume {
+	padding-right: 4px;
+}
 
 	.menu {
 	margin: 0 1em 0 1em;
@@ -298,12 +265,78 @@ ul {
 	#socialmedia {
 	float: none;
 	margin: 0 auto;
-	padding: 24px 0 0 0;
+	padding: 34px 0 30px 0;
 	height: 20px;
-	width: 134px;
+	width: 339px;
 	}
 
- }*/
+	#socialmedia img {
+		padding: 0 30px 0 30px;
+	}
 
+	.card {
+	border-radius: 2px;
+    float: left;
+    margin:10px 0 10px 0;
+    width: 400px;
+    height: 400px;
+	background: #fff;
+	}
+
+	.centerwrapper {
+    margin: auto;
+    width: 400px;
+	}
+
+	#floatright {
+	float: none;
+	margin: 0 auto;
+	height: 20px;
+	width: 308px;
+}
+
+#topname {
+	float: none;
+	margin: auto;
+	height: 20px;
+	width: 250px;
+	padding: 14px 0 19px 0;
+
+}
+
+	header {
+		height: 109px;
+		text-align:center;
+    	width:100%;
+	}
+
+#blog {
+	float: right;
+	padding: 20px 20px 20px 20px;
+	margin-right: 0;
+
+ }
+
+
+ @media only screen and (max-width: 500px) 
+
+ {
+ .card {
+	border-radius: 2px;
+    float: left;
+    margin:10px 0 10px 0;
+    width: 300px;
+    height: 300px;
+	background: #fff;
+	}
+
+	.centerwrapper {
+    margin: auto;
+    width: 300px;
+	}
+
+
+
+}
 
  
