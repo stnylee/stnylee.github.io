@@ -84,7 +84,7 @@ ul {
 	letter-spacing: 1px;
 }
 
-#floatright {
+#topmenu {
 	padding: 0;
 	margin: 0;
 }
@@ -183,9 +183,9 @@ ul {
 
 #socialmedia {
 	float: left;
-	padding: 40px 0 0 60px;
-/*	background-color: #fff000;
-*/	width: 220px;
+	padding: 40px 0 0 45px;
+	background-color: #fff000;
+	width: 220px;
 }
 
 #socialmedia img {
@@ -197,8 +197,8 @@ ul {
 	float:right;
 	padding: 43px 60px 0 0;
 	width: 143px;
-/*	background-color: #00ff00;
-*/
+	background-color: #00ff00;
+
 }
 
 #resume {
@@ -293,7 +293,7 @@ ul {
     width: 400px;
 	}
 
-	#floatright {
+	#topmenu {
 	float: none;
 	margin: 0 auto;
 	height: 40px;
