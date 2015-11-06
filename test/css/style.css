@@ -80,7 +80,7 @@ nav a:hover {
 	.topnav:hover {
 		background-color: #00BCD4;
 		color: #e0e0e0;
-}
+		}
 }
 
 #firstsection {
@@ -243,6 +243,7 @@ nav a:hover {
 		height: 80px;
 		text-align:center;
     	width:100%;
+    	box-shadow: none;
 	}
 
 	footer {
