@@ -243,7 +243,6 @@ nav a:hover {
 		height: 80px;
 		text-align:center;
     	width:100%;
-    	box-shadow: none;
 	}
 
 	footer {
@@ -348,7 +347,7 @@ nav a:hover {
 	.card {
 	    margin:0;
 	    width: 100%;
-		background: #fff;
+		background: #212121;
 	}
 
 	.card h1 {
