@@ -340,6 +340,10 @@ nav a:hover {
  @media only screen and (max-width: 500px) 
 
  {
+ 	header {
+ 		box-shadow: 0;
+ 	}
+ 	
 	#firstsection {
 	    padding: 0;
 	    background: #212121;
