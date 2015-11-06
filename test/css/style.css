@@ -342,12 +342,14 @@ nav a:hover {
  {
 	#firstsection {
 	    padding: 0;
+	    background: #fff;
+
 	}
 
 	.card {
 	    margin:0;
 	    width: 100%;
-		background: #212121;
+		background: #fff;
 	}
 
 	.card h1 {
