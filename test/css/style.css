@@ -113,13 +113,16 @@ nav a:hover {
 	font-weight: 500;
 }
 
-
 .card p {
 	margin: 0.5em 12em 0 12em;
 	color: #fff;
 	font-weight: 100;
+/*	display: none;
+*/}
 
-}
+/*.card:hover p{
+	display: block;
+}*/
 
 #jogging {	
 	background: 
@@ -262,33 +265,25 @@ nav a:hover {
 	}
 
 	.topnav {
-		font-weight: 500;
-		font-size: 0.8em;
-		letter-spacing: 1px;
-		float: right;
 		padding: 10px 20px 10px 20px;
 	}
 
 	.centerwrapper {
-	    margin: auto;
 	    width: 400px;
 	}
 
 	.card {
-		border-radius: 2px;
-	    float: left;
-	    margin:20px 0 20px 0;
 	    width: 400px;
 	    height: 400px;
-		background: #fff;
 	}
 
 	.card h1 {
-		padding-top: 40%;
+		padding-top: 4.5em;
 	}
 
 	.card p {
 		margin: 1em 4em 0 4em;
+		display: block;
 	}	
 
 	#secondsection {
@@ -342,27 +337,31 @@ nav a:hover {
  @media only screen and (max-width: 500px) 
 
  {
+	#firstsection {
+	    padding: 0;
+	}
+
 	.card {
-		border-radius: 2px;
-	    float: left;
-	    margin:20px 0 20px 0;
-	    width: 300px;
-	    height: 300px;
+	    margin:0;
+	    width: 100%;
 		background: #fff;
 	}
 
 	.card h1 {
-		padding-top: 35%;
+		padding-top: 4.5em;
 	}
 
 	.card p {
-		font-size: 0.8em;
+		font-size: 0.9em;
 		font-weight: 300;
-		margin: 1em 2em 0 2em;
+		margin: 1em 5em 0 5em;
 	}
 
 	.centerwrapper {
-	    margin: auto;
-	    width: 300px;
+	    width: 100%;
+	}
+
+	#secondsection {
+		font-size: 0.9em;: 
 	}
 } 
