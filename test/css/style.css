@@ -61,6 +61,7 @@ ul {
 
 #topmenu {
 	margin-right: 40px;
+	background-color: #00ff00;
 }
 
 .topnav {
@@ -195,11 +196,10 @@ ul {
 
 #socialmedia {
 	float: left;
-	padding: 40px 0 0 45px;
+	padding: 40px 0 0 50px;
 	font-size: 20px;
 	width: 200px;
-/*	background-color: #ff00ff;
-*/}
+}
 
 #socialmedia span{
 	padding: 0 10px 0 10px;
@@ -211,9 +211,8 @@ ul {
 	font-size: 0.8em;
 	letter-spacing: 1px;
 	padding: 43px 60px 0 0;
-	width: 154px;
-/*	background-color: #ff00ff;
-*/}
+	width: 143px;
+}
 
 #resume {
 	padding-right: 40px;
