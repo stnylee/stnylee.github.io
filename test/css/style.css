@@ -61,7 +61,6 @@ ul {
 
 #topmenu {
 	margin-right: 40px;
-	background-color: #00ff00;
 }
 
 .topnav {
@@ -75,6 +74,7 @@ ul {
 @media only screen and (min-width: 798px) 
 {
 	.topnav:hover {
+		background-color: #00BCD4;
 		color: #e0e0e0;
 	}
 	nav a:hover {
