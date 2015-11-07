@@ -374,6 +374,12 @@ ul {
 	}
 
 	#secondsection {
-		font-size: 0.9em;: 
+		font-size: 0.9em; 
 	}
+
+	#aboutmelink {
+		margin: 20px auto 0 auto;
+	}
+
+
 } 
