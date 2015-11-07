@@ -76,10 +76,14 @@ ul {
 	.topnav:hover {
 		background-color: #00BCD4;
 		color: #e0e0e0;
-		}
+	}
 	nav a:hover {
 		color: #00BCD4;
-}
+	}
+
+	#socialmedia a:hover {
+		color: #00BCD4;
+	}
 }
 
 #firstsection {
@@ -119,12 +123,8 @@ ul {
 	margin: 0.5em 12em 0 12em;
 	color: #fff;
 	font-weight: 100;
-/*	display: none;
-*/}
+}
 
-/*.card:hover p{
-	display: block;
-}*/
 
 #jogging {	
 	background: 
@@ -203,10 +203,6 @@ ul {
 
 #socialmedia span{
 	padding: 0 10px 0 10px;
-}
-
-#socialmedia a:hover {
-	color: #00BCD4;
 }
 
 #contact {
