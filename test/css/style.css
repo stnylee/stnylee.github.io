@@ -133,7 +133,8 @@ ul {
     	rgba(0, 0, 0, 0.5)
     ),
     center center 
-    url(../images/jogging.jpg);}
+    url(../images/jogging.jpg);
+}
 
 #club {
 	background: 
@@ -237,6 +238,42 @@ ul {
     clear: both;
     height: 0;
 }
+
+/*-----------------------------------styles for about page-----------------------------------*/
+
+#aboutfirst {
+	padding: 40px 0 40px 0;
+}
+
+#circle {
+	background-color:#000;
+    background: 
+    center center 
+    url(../images/me.jpg);
+    border-radius:100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	height:360px;
+	width:360px;
+    margin:0 auto;
+    transition: all 0.2s ease-in-out;
+}
+
+#aboutsecond {
+	background-color: #e0e0e0;
+	color: #424242;
+	height: 80px;
+	padding: 30px 200px 30px 200px;
+	text-align: left;
+}
+
+#aboutsecond a {
+	font-weight: 500;
+	background-color: #e0e0e0;
+	color: #00BCD4;
+}
+
+
+/*-----------------------------------styles for about page-----------------------------------*/
 
 @media only screen and (max-width: 797px) 
 
@@ -379,6 +416,5 @@ ul {
 	#aboutmelink {
 		margin: 20px auto 0 auto;
 	}
-
 
 } 
