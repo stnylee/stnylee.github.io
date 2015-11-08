@@ -261,9 +261,9 @@ ul {
 #aboutsecond {
 	background-color: #e0e0e0;
 	color: #424242;
-	height: 80px;
 	padding: 30px 200px 30px 200px;
 	text-align: left;
+	line-height: 25px;
 }
 
 #aboutsecond a {
@@ -372,6 +372,12 @@ ul {
 
 	#credit {
 		display: none;
+	}
+
+/*-------------------------ABOUT PAGE--------------------------*/
+
+	#aboutsecond {
+		padding: 30px 50px 30px 50px;
 	}
 
 }
