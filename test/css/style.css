@@ -242,12 +242,6 @@ ul {
 /*-----------------------------------styles for about page-----------------------------------*/
 
 
-#hi {
-	font-size: 1.5em;
-	font-weight: 500;
-	padding-bottom: 30px;
-}
-
 #aboutfirst {
 	padding: 40px 0 40px 0;
 }
@@ -281,6 +275,12 @@ ul {
 
 #aboutsecond a {
 		color: #00ACC1;
+}
+
+#hi {
+	font-size: 1.5em;
+	font-weight: 500;
+	padding-bottom: 20px;
 }
 
 #bio {
@@ -415,9 +415,10 @@ ul {
 	}
 
 	.card {
-	    margin:0;
+	    margin: 0;
 	    width: 100%;
 		background: #fff;
+		border-radius: 0;
 	}
 
 	.card h1 {
@@ -435,8 +436,7 @@ ul {
 	}
 
 	#secondsection {
-		font-size: 0.9em; 
-		height: 82px;
+		height: 70px;
 	}
 
 	#aboutmelink {
