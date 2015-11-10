@@ -10,7 +10,7 @@ body {
 	background-color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 300;
 	margin: 0;
 	text-align: left;
 }
@@ -175,15 +175,15 @@ ul {
 	background-color: #00BCD4;
 	border-radius: 2px;
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.26);
-	color: #fafafa;
+	color: #fafafa;	
 	font-size: 0.8em;
 	font-weight: 400;
 	height: 20px;
 	left: 0;
 	letter-spacing: 0.5px;
-	line-height: 20px;
+	line-height: 23px;
 	margin: 30px auto 0 auto;
-	padding: 5px;
+	padding: 5px 5px 6px 5px;
 	position: absolute;
 	right: 0;
 	width: 70px;
@@ -227,7 +227,7 @@ ul {
 	position: absolute;
 	right: 0;
 	text-align: center;
-	width: 150px;
+	width: 216px;
 }
 
 .clearfix:after {
@@ -241,37 +241,54 @@ ul {
 
 /*-----------------------------------styles for about page-----------------------------------*/
 
+
+#hi {
+	font-size: 1.5em;
+	font-weight: 500;
+	padding-bottom: 30px;
+}
+
 #aboutfirst {
 	padding: 40px 0 40px 0;
 }
 
-#circle {
-	background-color:#000;
+#pictureframe {
+	margin: 0 auto;
+	padding: 0;
+	width: 350px;
+	height: 350px;
+	border-radius: 100%;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.2s ease-in-out;
+    overflow: hidden;
     background: 
     center center 
-    url(../images/me.jpg);
-    border-radius:100%;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	height:360px;
-	width:360px;
-    margin:0 auto;
-    transition: all 0.2s ease-in-out;
+    url(../images/me.png);
+    background-size: 150px;
+}
+
+#mypicture {
+	width: 400px;
 }
 
 #aboutsecond {
 	background-color: #e0e0e0;
 	color: #424242;
-	padding: 30px 200px 30px 200px;
+	padding: 30px 250px 30px 250px;
 	text-align: left;
 	line-height: 25px;
 }
 
 #aboutsecond a {
-	font-weight: 500;
-	background-color: #e0e0e0;
-	color: #00BCD4;
+		color: #00ACC1;
 }
 
+#bio {
+	width: 530px;
+	padding: 40px 0 0 60px;
+	height: 300px;
+	float: left;
+}
 
 /*-----------------------------------styles for about page-----------------------------------*/
 
@@ -377,8 +394,11 @@ ul {
 /*-------------------------ABOUT PAGE--------------------------*/
 
 	#aboutsecond {
-		padding: 30px 50px 30px 50px;
+		padding: 35px 35px 35px 35px;
 	}
+
+/*-------------------------ABOUT PAGE--------------------------*/
+
 
 }
 
