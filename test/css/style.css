@@ -259,7 +259,7 @@ ul {
     background: 
     center center 
     url(../images/me.png);
-    background-size: 150px;
+    background-size: 370px;
 }
 
 #mypicture {
@@ -293,7 +293,7 @@ ul {
 
 /*-----------------------------------styles for about page-----------------------------------*/
 
-@media only screen and (max-width: 797px) 
+@media only screen and (max-width: 800px) 
 
 {	
 	header {
@@ -303,7 +303,7 @@ ul {
 	}
 
 	footer {
-		height: 130px;
+		height: 110px;
 		text-align:center;
     	width:100%;
 	}
@@ -347,7 +347,9 @@ ul {
 	}	
 
 	#secondsection {
- 		padding: 35px;
+		font-size: 0.9em;
+ 		padding: 30px;
+ 		height: 100px;
  	}
 
 	#aboutmelink {
@@ -357,7 +359,7 @@ ul {
 	#socialmedia {
 		float: none;
 		margin: 0 auto;
-		padding: 34px 0 30px 0;
+		padding: 20px 0 30px 0;
 		height: 20px;
 		width: 339px;
 	}
@@ -395,12 +397,14 @@ ul {
 /*-------------------------ABOUT PAGE--------------------------*/
 
 	#aboutsecond {
-		padding: 35px 35px 35px 35px;
+		padding: 30px;
+		font-size: 0.9em;
 	}
 
 	#pictureframe {
 	width: 250px;
 	height: 250px;
+ 	background-size: 270px;
 	}
 
 /*-------------------------ABOUT PAGE--------------------------*/
@@ -442,7 +446,7 @@ ul {
 	}
 
 	#secondsection {
-		height: 129px;
+		height: 125px;
 	}
 
 	#aboutmelink {
