@@ -350,5 +350,9 @@ footer a:hover {
     	height: 350px;
     	width: 350px;
 	}
+
+	#intro {
+		line-height: 22px;
+		}
 }
 
