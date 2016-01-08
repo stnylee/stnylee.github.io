@@ -20,6 +20,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 10pt;
+	text-align: center;
 }
 
 a {
@@ -29,17 +30,13 @@ a {
 
 h1 {
 	font-weight: 400;
-	font-size: 18pt;
+	font-size: 17pt;
 }
 
 header {
 	background-color: #363636;
 	color: #fafafa;
-	text-align: center;
 	height: 42px;
-	border-left: solid 8px #1FDA9A;
-	border-right: solid 8px #363636;
-
 }
 
 footer {
@@ -47,7 +44,6 @@ footer {
 	color: #fafafa;
 	height: 30px;
 	padding: 30px 0 50px 0;
-	text-align: center;
 }
 
 footer a:hover {
@@ -67,21 +63,24 @@ footer a:hover {
 	font-size: 14pt;
 	font-weight: 600;
 	letter-spacing: 2px;
-	color: #fafafa;
 	padding-top: 10px;
-	height: 32px;
+	height: 28px;
+}
+
+#stevelee:hover {
+	border-bottom: solid 4px #1FDA9A;
 }
 
 #menu {
 	float: right;
-	font-size: 8pt;
+	font-size: 9pt;
 	font-weight: 400;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.4px;
 	display: block;
 }
 
 .menulink {
-	padding: 15px 10px 10px 10px;
+	padding: 15px 10px 9px 10px;
     display: inline-block;
 }
 
@@ -90,46 +89,26 @@ footer a:hover {
 }
 
 /*----------------HEADER------------------*/
-
 /*----------------BODY------------------*/
 
 #firstsection {
-	padding: 40px 0 60px 0;
-	text-align: center;
+	padding: 40px 0 80px 0;
 }
 
 #intro {
 	text-align: left;
 	line-height: 35px;
-	padding: 0 0 20px 0;
-}
-
-#intro2 {
-	text-align: left;
-	font-weight: 400;
-	font-size: 11pt;
-}
-
-#intro2 a {
-	color: #1DC78D;	
-	text-decoration: underline;
-}
-
-#intro2 a:hover {
-	color: #1FDA9A;
 }
 
 .btn {
-  background-color: #fafafa;
   border: 1px solid #363636;
-  box-shadow: 0 0 0 0 #363636 inset, 2px 2px 0 0 #1FDA9A;
+  box-shadow: 0 0 0 0 #363636 inset, 3px 3px 0 0 #1FDA9A;
   display: inline-block;
   font-weight: 600;
-  font-size: 8pt;
+  font-size: 9pt;
   letter-spacing: 1px;
+  margin-top: 80px; 
   padding: 10px;
-	margin-top: 80px; 
-  text-align: center;
   transition: 0.2s box-shadow, 0.2s -webkit-transform;
 }
 
@@ -137,20 +116,33 @@ footer a:hover {
   box-shadow: 0 0 0 0 inset;
 }
 
-.btn:focus {
-  box-shadow: 0 0 0 0 inset;
-}
-
 /*----------------BODY------------------*/
-
 /*-----------------WORK SECTION-------------*/
 
 #secondsection {
 	background-color: #ffffff;
 	padding: 40px 0 50px 0;
-	text-align: center;
-	width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .margin {
 	margin-bottom: 40px;
@@ -158,13 +150,15 @@ footer a:hover {
 
 .toptext {
 	display: inline-block;
-	font-size: 8pt;
+	font-size: 9pt;
 	font-weight: 600;
 	letter-spacing: 3px;
 	margin: 0 auto;
 	padding-bottom: 1px;
 	color: #363636;
 	text-align: center;
+	height: 7px;
+	border-bottom: solid 6px rgba(31,218,154,0.5);
 }
 
 .card {
@@ -240,7 +234,7 @@ footer a:hover {
 		width: 600px;
 		}
 	h1 {
-		font-size: 16pt;
+		font-size: 17pt;
 		}
 
 	 #intro2 {
@@ -273,7 +267,7 @@ footer a:hover {
 		}
 
 	h1 {
-		font-size: 12pt;
+		font-size: 11pt;
 		}
 
 	.card {
@@ -293,6 +287,10 @@ footer a:hover {
 
 	#intro2 {
 		font-size: 9pt;		
+	}
+
+	#menu {
+		font-size: 8pt;
 	}
 
 	.menulink {
@@ -316,14 +314,6 @@ footer a:hover {
 	.btn {
 		margin-top: 50px;
 	}
-
-	header {
-	border-top: solid 3px #1FDA9A;
-	border-right: none;
-	border-left: none;
-	}
-
-
 }
 
 @media only screen and (max-width: 375px) {
@@ -335,14 +325,6 @@ footer a:hover {
 	#stevelee {
 		font-size: 12pt;
 	}
-
-		#menu {
-	float: right;
-	font-size: 7pt;
-	font-weight: 400;
-	letter-spacing: 0.5px;
-	display: block;
-		}
 	
 	.menulink {
 		padding: 15px 5px 11px 5px;
