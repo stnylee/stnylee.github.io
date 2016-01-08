@@ -32,11 +32,6 @@ h1 {
 	font-size: 18pt;
 }
 
-h2 {
-	font-weight: 400;
-	font-size: 11pt;
-}
-
 header {
 	background-color: #363636;
 	color: #fafafa;
@@ -60,7 +55,7 @@ footer a:hover {
 }
 
 .wrapper {
-	width: 80%;
+	width: 800px;
 	display: inline-block;
     margin: 0 auto;
 }
@@ -75,7 +70,6 @@ footer a:hover {
 	color: #fafafa;
 	padding-top: 10px;
 	height: 32px;
-
 }
 
 #menu {
@@ -88,7 +82,6 @@ footer a:hover {
 
 .menulink {
 	padding: 15px 10px 10px 10px;
-	margin: 0 0 0 5px;
     display: inline-block;
 }
 
@@ -113,6 +106,8 @@ footer a:hover {
 
 #intro2 {
 	text-align: left;
+	font-weight: 400;
+	font-size: 11pt;
 }
 
 #intro2 a {
@@ -232,6 +227,128 @@ footer a:hover {
    	center center 
    	url(../images/me.jpg);
    	background-size: 300px;
+}
 
- #myintro 
+
+@media only screen and (max-width: 1024px) {
+
+	.wrapper {
+		width: 600px;
+		}
+	h1 {
+		font-size: 16pt;
+		}
+
+	 #intro2 {
+    	font-size: 10pt;
+    	}	
+
+	.card {
+    	height: 190px;
+    	width: 190px;
+	}
+
+	#second {
+	margin: 0 15px 0 15px;
+	}
+
+	#intro {
+	text-align: left;
+	line-height: 30px;
+	padding: 0 0 20px 0;
+}
+
+
+}
+
+
+@media only screen and (max-width: 736px) {
+
+	.wrapper {
+		width: 360px;
+		}
+
+	h1 {
+		font-size: 12pt;
+		}
+
+	.card {
+		float: none;
+    	height: 360px;
+    	width: 360px;
+    	margin: 0 auto;
+		}
+
+	#second {
+		margin: 30px 0px 30px 0;
+		}
+
+	#intro {
+		line-height: 26px;
+		}
+
+	#intro2 {
+		font-size: 9pt;		
+	}
+
+	.menulink {
+		padding: 15px 5px 10px 5px;
+		margin: 0 0 0 5px;
+    	display: inline-block;
+		}
+
+	.margin {
+		margin-bottom: 30px;
+	}
+
+	#firstsection {
+		padding-top: 30px;
+	}
+
+	#secondsection {
+		padding-top: 30px;
+	}
+
+	.btn {
+		margin-top: 50px;
+	}
+
+	header {
+	border-top: solid 3px #1FDA9A;
+	border-right: none;
+	border-left: none;
+	}
+
+
+}
+
+@media only screen and (max-width: 375px) {
+
+	.wrapper {
+		width: 350px;
+		}
+
+	#stevelee {
+		font-size: 12pt;
+	}
+
+		#menu {
+	float: right;
+	font-size: 7pt;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	display: block;
+		}
+	
+	.menulink {
+		padding: 16px 5px 11px 5px;
+		margin: 0 0 0 5px;
+    	display: inline-block;
+		}
+
+		.card {
+    	height: 350px;
+    	width: 350px;
+	}
+}
 
