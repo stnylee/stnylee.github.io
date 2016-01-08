@@ -137,6 +137,10 @@ footer a:hover {
   box-shadow: 0 0 0 0 inset;
 }
 
+.btn:focus {
+  box-shadow: 0 0 0 0 inset;
+}
+
 /*----------------BODY------------------*/
 
 /*-----------------WORK SECTION-------------*/
