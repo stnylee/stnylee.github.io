@@ -30,6 +30,11 @@ a {
 
 h1 {
 	font-weight: 400;
+	font-size: 24pt;
+}
+
+h2 {
+	font-weight: 400;
 	font-size: 17pt;
 }
 
@@ -56,6 +61,10 @@ footer a:hover {
     margin: 0 auto;
 }
 
+.currentpage {
+	border-bottom: solid 4px #1FDA9A;
+}
+
 /*----------------HEADER------------------*/
 
 #stevelee {
@@ -67,10 +76,6 @@ footer a:hover {
 	height: 28px;
 }
 
-#stevelee:hover {
-	border-bottom: solid 4px #1FDA9A;
-}
-
 #menu {
 	float: right;
 	font-size: 9pt;
@@ -80,7 +85,8 @@ footer a:hover {
 }
 
 .menulink {
-	padding: 15px 10px 9px 10px;
+	padding: 15px 5px 9px 5px;
+	margin-left: 20px;
     display: inline-block;
 }
 
@@ -95,9 +101,15 @@ footer a:hover {
 	padding: 40px 0 80px 0;
 }
 
-#intro {
+.intro {
 	text-align: left;
 	line-height: 35px;
+}
+
+#intro2 {
+	text-align: left;
+	margin-top: 15px;
+	font-size: 12pt;
 }
 
 .btn {
@@ -107,13 +119,16 @@ footer a:hover {
   font-weight: 600;
   font-size: 9pt;
   letter-spacing: 1px;
-  margin-top: 80px; 
   padding: 10px;
   transition: 0.2s box-shadow, 0.2s -webkit-transform;
 }
 
 .btn:hover {
   box-shadow: 0 0 0 0 inset;
+}
+
+.indexbtn {
+	  margin-top: 80px; 
 }
 
 /*----------------BODY------------------*/
@@ -228,12 +243,162 @@ footer a:hover {
 }
 
 
+/*----------------RESUME------------------*/
+
+	#resumeheader {
+		width: 800px;
+		height:90px;
+/*		background-color: #00ff00;
+*/		margin: 0 auto;
+		display: inline-block;
+        border-bottom: 2px solid rgba(0,0,0,0.1);
+
+	}
+
+	#rname {
+		float: left;
+		text-align: left;
+	}
+
+	#rcontact {
+		float: right;
+		text-align: left;
+        line-height: 20px;
+	}
+
+	#experience {
+		width: 800px;
+		height:430px;
+/*		background-color: #fffff2;
+*/		margin: 0 auto;
+        padding-top: 30px;
+        border-bottom: 2px solid rgba(0,0,0,0.1);
+	}
+
+	.sidetitle {
+		float: left;
+        font-weight: 400;
+/*		background-color: #ffff00;
+*/		
+	}
+
+	.expinfo {
+		width: 600px;
+/*		background-color: #ffff00;
+*/		float: right;
+		text-align: left;
+        line-height: 20px;
+	}
+
+	.exptitle {
+		float: left;
+		text-align: left;
+/*		background-color: #ff00ff;
+*/	}
+
+	.expdescription {
+/*		background-color: #ff0000;
+*/		display: inline-block;
+		text-align: left;
+		padding-bottom: 30px;
+        line-height: 20px;
+	}
+
+	.expdate {
+		float: right;
+/*		background-color: #ff00ff;
+*/	}
+
+	#skills {
+		width: 800px;
+		height: 70px;
+/*		background-color: #ff0000;
+*/		margin: 0 auto;
+        padding-top: 30px;
+        border-bottom: 2px solid rgba(0,0,0,0.1);
+
+	}
+
+	#education {
+		width: 800px;
+		height:240px;
+/*		background-color: #ff33ff;
+*/		margin: 0 auto;
+        padding-top: 30px;
+        border-bottom: 2px solid rgba(0,0,0,0.1);
+	}
+
+	#cumlaude {
+		width: 300px;
+	}
+
+	#achievements {
+		width: 800px;
+		height:140px;
+/*		background-color: #219210;
+*/		margin: 0 auto;
+        padding-top: 30px;
+	}
+
+	.companyname {
+		font-size: 14pt;
+		font-weight: 600;
+	}
+
+	.positionname {
+		font-weight: 400;
+		padding-bottom: 20px;
+	}
+
+    #resumeoutline {
+        background-color: #ffffff;        
+        width: 900px;
+        margin: 0 auto;
+        padding-top: 40px;
+        box-shadow: 0 0 0 0 #363636 inset, 3px 3px 0 0 #1FDA9A;
+        border: 1px solid #000;
+
+    }
+
+    .companyname a:hover {
+        color: #1FDA9A;
+    }
+
+    #resumename {
+        font-size: 30pt;
+        font-weight: 600;
+    }
+
+    #resumeuxd {
+        font-weight: 400;
+        font-size: 13pt;
+    }
+
+    #downloadresume {
+        font-size: 12pt;
+        padding-bottom: 40px;
+    }
+
+    #downloadresume a {
+        color: #1FDA9A;
+        font-weight: 400;
+    }
+
+    #downloadresume a:hover {
+        color: #2AFAB3;
+        font-weight: 400;
+    }
+
+
+/*-------------------MEDIA QUERY---------------*/
+
+
 @media only screen and (max-width: 1024px) {
 
 	.wrapper {
 		width: 600px;
 		}
-	h1 {
+	h2 {
 		font-size: 17pt;
 		}
 
@@ -250,15 +415,48 @@ footer a:hover {
 	margin: 0 15px 0 15px;
 	}
 
-	#intro {
+	.intro {
 	text-align: left;
 	line-height: 30px;
 	padding: 0 0 20px 0;
-}
+    }
 
+    /*----------RESUME-----------*/
+    
+    #resumeoutline {
+        width: 700px;
+    }
 
-}
+    #resumeheader {
+        width: 600px;
+    }
 
+   .sidetitle {
+        float: none;
+        font-weight: 400;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    #experience {
+        width: 600px;
+        height:470px;
+    }
+
+    #skills {
+        width: 600px;
+        height: 110px;
+    }
+
+    #education {
+        width: 600px;
+        height: 280px;
+    }
+
+    #achievements {
+        width: 600px;
+        height: 200px;
+    }
 
 @media only screen and (max-width: 736px) {
 
@@ -266,7 +464,7 @@ footer a:hover {
 		width: 360px;
 		}
 
-	h1 {
+	h2 {
 		font-size: 11pt;
 		}
 
@@ -281,7 +479,7 @@ footer a:hover {
 		margin: 30px 0px 30px 0;
 		}
 
-	#intro {
+	.intro {
 		line-height: 26px;
 		}
 
@@ -314,6 +512,50 @@ footer a:hover {
 	.btn {
 		margin-top: 50px;
 	}
+
+
+    /*----------RESUME-----------*/
+    
+    #resumeoutline {
+        width: 360px;
+        border: 0;
+        box-shadow: none;
+        background-color: #fafafa;
+        padding-top: 20px;
+    }
+
+    #resumeheader {
+        width: 360px;
+    }
+
+    .expinfo {
+        width: 360px;
+    }
+
+    #experience {
+        width: 360px;
+        height: 580px;
+    }
+
+    #skills {
+        width: 360px;
+        height: 130px;
+    }
+
+    #education {
+        width: 360px;
+        height: 320px;
+    }
+
+    #achievements {
+        width: 360px;
+        height: 120px;
+    }
+
+    #rcontact {
+        padding-top: 7px;
+    }
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -337,7 +579,7 @@ footer a:hover {
     	width: 350px;
 	}
 
-	#intro {
+	.intro {
 		line-height: 22px;
 		}
 }
