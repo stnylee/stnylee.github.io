@@ -42,6 +42,9 @@ header {
 	background-color: #363636;
 	color: #fafafa;
 	height: 42px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
 }
 
 footer {
@@ -94,11 +97,15 @@ footer a:hover {
 	border-bottom: solid 4px #1FDA9A;
 }
 
+#envelope {
+    display: none;
+}
+
 /*----------------HEADER------------------*/
 /*----------------BODY------------------*/
 
 #firstsection {
-	padding: 40px 0 80px 0;
+	padding: 80px 0 80px 0;
 }
 
 .intro {
@@ -389,6 +396,8 @@ footer a:hover {
         font-weight: 400;
     }
 
+/*---------------PROJECT------------------------*/
+
 
 /*-------------------MEDIA QUERY---------------*/
 
@@ -493,7 +502,7 @@ footer a:hover {
 
 	.menulink {
 		padding: 15px 5px 10px 5px;
-		margin: 0 0 0 5px;
+		margin: 0 0 0 12px;
     	display: inline-block;
 		}
 
@@ -502,7 +511,7 @@ footer a:hover {
 	}
 
 	#firstsection {
-		padding-top: 30px;
+		padding-top: 80px;
 	}
 
 	#secondsection {
@@ -513,6 +522,15 @@ footer a:hover {
 		margin-top: 50px;
 	}
 
+    #envelope {
+        display: inline;
+        padding: 15px 0 15px 0;
+        font-size: 9pt;
+    }
+
+    #contactlink {
+        display: none;
+    }
 
     /*----------RESUME-----------*/
     
@@ -556,6 +574,11 @@ footer a:hover {
         padding-top: 7px;
     }
 
+    #intlfirst {
+        display: block;
+        line-height: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -582,5 +605,46 @@ footer a:hover {
 	.intro {
 		line-height: 22px;
 		}
+
+           #resumeoutline {
+        width: 360px;
+        border: 0;
+        box-shadow: none;
+        background-color: #fafafa;
+        padding-top: 20px;
+    }
+
+    #resumeheader {
+        width: 350px;
+    }
+
+    .expinfo {
+        width: 350px;
+    }
+
+    #experience {
+        width: 350px;
+        height: 580px;
+    }
+
+    #skills {
+        width: 350px;
+        height: 130px;
+    }
+
+    #education {
+        width: 350px;
+        height: 320px;
+    }
+
+    #achievements {
+        width: 350px;
+        height: 120px;
+    }
+
+    #rcontact {
+        padding-top: 7px;
+    }
+
 }
 
