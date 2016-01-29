@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="602px" height="600px" viewBox="0 0 602 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>graph1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="graph1" sketch:type="MSArtboardGroup">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(299.000000, 299.500000) scale(-1, -1) rotate(-180.000000) translate(-299.000000, -299.500000) translate(4.000000, 5.000000)">
+                <path d="M1.9095836e-13,294.5 C7.72715225e-14,457.147859 131.852141,589 294.5,589 C457.147859,589 589,457.147859 589,294.5 C589,131.852141 457.147859,-3.65281359e-13 294.5,-3.95159286e-13 C131.852141,-4.25037212e-13 1.9095836e-13,131.852141 1.9095836e-13,294.5 Z M295,405 C355.751322,405 405,355.751322 405,295 C405,234.248678 355.751322,185 295,185 C234.248678,185 185,234.248678 185,295 C185,355.751322 234.248678,405 295,405 Z" id="Oval-1" fill="#98CB4A" sketch:type="MSShapeGroup"></path>
+                <path d="M294.037581,185.004123 L294.037581,0.000385596676 C294.204215,0.000138502226 294.370882,-7.38914956e-13 294.537581,-7.38884334e-13 C457.18544,-7.09006407e-13 589.037581,131.852141 589.037581,294.5 C589.037581,457.147859 457.18544,589 294.537581,589 C175.902603,589 73.6515946,518.851887 27,417.771104 L194.455243,339.685442 C211.584211,378.168877 250.158733,405 295,405 C355.751322,405 405,355.751322 405,295 C405,234.248678 355.751322,185 295,185 C294.67887,185 294.358062,185.001376 294.037581,185.004123 Z" id="Oval-1" fill="#2783CB" sketch:type="MSShapeGroup"></path>
+            </g>
+            <text id="192" sketch:type="MSTextLayer" font-family="Roboto" font-size="72" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="234.355469" y="313">192</tspan>
+            </text>
+            <text id="71%" sketch:type="MSTextLayer" font-family="Roboto" font-size="64" font-weight="420" fill="#FFFFFF">
+                <tspan x="440" y="325">71%</tspan>
+            </text>
+            <text id="29%" sketch:type="MSTextLayer" font-family="Roboto" font-size="64" font-weight="420" fill="#FFFFFF">
+                <tspan x="72" y="212">29%</tspan>
+            </text>
+            <text id="participants" sketch:type="MSTextLayer" font-family="Roboto" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="235.373047" y="343">participants</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -122,11 +122,11 @@ footer a:hover {
     display: inline-block;
     font-size: 9pt;
     font-weight: 600;
-    height: 10px;
+    height: 7px;
     letter-spacing: 3px;
     margin-bottom: 40px;
     text-align: center;
-    border-bottom: solid 3px rgba(31,218,154,0.5);
+    border-bottom: solid 6px rgba(31,218,154,0.5);
 }
 
 /*----------------HEADER------------------*/
@@ -485,8 +485,6 @@ hr {
 
 /*-----------------------------------RESUME.HTML--------------------------------------*/
 /*-----------------------------------WORK PARGES---------------------------------------*/
-
-
 
 .work-format h2 {
     margin-bottom: 20px;

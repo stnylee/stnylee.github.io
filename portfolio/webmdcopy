@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css">
+	<link rel='icon' type='image/x-icon' href='favicon.ico'>
+	<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=0">
+	<title>Steve Lee - UX Designer</title>
+</head>
+<body>
+	<header class="clearfix" id="notfixed">
+	<div class="wrapper">
+		<a href="index.html"><div id="stevelee">
+			STEVE LEE
+		</div></a>
+		<div id="menu">
+			<a href="index.html"><div class="menulink currentpage">WORK</div></a>
+			<a href="about.html"><div class="menulink">ABOUT</div></a>
+			<a href="resume.html"><div class="menulink">RESUME</div></a>
+			<a href="mailto:hi@stevesportfol.io"><div class="menulink" id="maillink">
+				<span id ="contactlink">CONTACT</span>
+				<div id="envelopelink">
+					<span id ="envelope" class="fa fa-envelope-o"></span>
+				</div>
+			</div></a>
+		</div>
+	</div>
+	</header>
+<section id="work-first-section">	
+	<h1 class="padding-bottom-10">WebMD Mobile App</h1>	
+	<p>Personalized medical & health content curation</p> 
+</section>
+<section class="greybg padding-60">
+	<div class="wrapper">
+		<img src="images/webmd/three.png" class="three">
+	</div>
+</section>
+<section class="whitebg padding-60">
+	<div class="wrapper">
+		<div class="lefthalf">
+			<h3 class="padding-bottom-20">Project Scope</h3>
+			<p>This project was completed for General Assembly's UXDi program over the course of 2 weeks. I developed this project as part of a 3 member team of UX design students to solve a problem for WebMD, a medical information & news website.</p>
+		</div>
+		<div class="righthalf">
+			<h3 class="padding-bottom-20">My Role</h3>
+			<p>Our team collaboratively worked on ideation of the solution, research, synthesis and iteration. I took responsibility of wireframing and prototyping. As an extension to the project, I also worked on the visual design and created a high-fidelity mockup of the app.</p>
+		</div>
+	</div>
+</section>
+<section class="whitebg">
+	<div class="wrapper middle">
+		<h3 class="padding-bottom-20">The Challenge</h3>
+		<h2 class="padding-bottom-20">A more personalized experience.</h2>
+		<p> WebMD wants to increase its user acquisition and retention. The company has come to an understanding that users have difficulty parsing through its massive collection of content. Our challenge was to create an experience that is more personalized and meaningful to the users or someone they are trying to help.</p>	
+	</div>
+</section>
+<section class="whitebg padding-60">	
+	<div class="wrapper middle">	
+		<h3 class="padding-bottom-20">Solution</h3>
+		<h2 class="padding-bottom-20">Relevant content, all in one place.</h2>
+		<p>The new, redesigned WebMD mobile app provides users with a personalized experience by curating and presenting relevant medical tips, news, and other content based on their personal information, family history of medical issues, and daily habits.</p>
+	</div>
+</section>
+<section class="greybg padding-60">
+	<div class="wrapper text-align-left">
+		<div class="lefthalf">
+			<h3 class="padding-bottom-20">Process</h3>
+			<h2 class="padding-bottom-20">Research, confirm, design.</h2>
+			<p class="padding-bottom-20">From our existing knowledge and experience with WebMD, our assumption was simple--users only come to WebMD when they're sick, and do not proactively browse its content to get medical information when they're not.</p>
+			<p>To confirm our assumption and to understand the motivation and behavior of our users, we conducted two rounds of surveys. From the <span class="bold">first survey</span> of 190 participants, we learned that:</p>
+			<ul>
+				<li>71% of the participants have used WebMD before</li>
+				<li>But they mostly only used WebMD to diagnose symptoms when they were sick</li>
+				<li>Social media feed was the most common medium users chose in receiving medical news and updates</li>
+			</ul>
+			<p class="padding-bottom-40">From this result, we confirmed that user acquisition wasn't the issue at hand, but we had 	to create a feature that would have these existing users to come back to WebMD on a regular basis.</p>
+		</div>
+		<div class="righthalf infograph">
+		<h3>*Space for infographics*</h3>
+		</div>
+	</div>
+	<div class="wrapper quote padding-bottom-40">
+		<hr>
+		<div class="padding-bottom-20 padding-top-20">"Social media feed was the most common method for the users in keeping updated with a certain medical condition."</div>
+		<hr>
+	</div>
+	<div class="wrapper text-align-left">
+		<p class="padding-bottom-20">From these insights, we decided to implement the new feature of a personalized news feed based on users' information. This would create a more meaningful experience for users interested in receiving relevant medical news and information. It would also have a more refined content compared to receiving information from a social media feed.</p>
+		<p class="padding-bottom-40">To implement this feature, we wanted to make sure that the users would be willing to share their personal information and brief medical history with a secured and private app. So we conducted a <span class="bold">second round of survey</span>, which confirmed that 79% of users who currently suffer from a medical condition/have a history of medical condition would be willing to provide their information in order to receive a more personalized medical information.</p>
+		<h2 class="padding-bottom-20">Restructuring the existing features</h2>
+		<p>In addition to the new personalized feed feature, we decided on a complete restructuring of the app, while keeping a lot of its existing features which we found to be valuable. Ambiguous section titles were changed, and scattered glossary pages were combined into one search page.</p>
+	</div>
+</section>
+<section class="whitebg padding-60">
+	<div id="finaldesign" class="wrapper text-align-left padding-bottom-60">	
+		<h3 class="padding-bottom-20">Final Design</h3>
+		<h2 class="padding-bottom-20">Introducing the new, personalized WebMD.</h2>
+		<p>You can view the WebMD prototype <a href="#" class="webmdhref">here</a>.</p>
+	</div>
+	<div class="wrapper text-align-left padding-bottom-60">
+		<h2 class="padding-bottom-20">Onboarding Flow</h2>
+		<p>In the onboarding flow, we wanted to ensure that users knew why asking the personal information, and how it was going to benefit them. We also emphasized the security and privacy of the information, to eliminate as much hesitancy as possible.</p>
+	</div>
+	<div class="wrapper padding-bottom-60">
+		<div class="screen-float-left margin-right-10px">
+			<img src="images/webmd/splash1.png" class="screen4">
+		</div>
+		<div class="screen-float-left margin-right-10px">
+			<img src="images/webmd/splash2.png" class="screen4">
+		</div>
+		<div class="screen-float-left margin-right-10px">
+			<img src="images/webmd/splash3.png" class="screen4">
+		</div>
+		<div class="screen-float-left">
+			<img src="images/webmd/splash4.png" class="screen4">
+		</div>
+	</div>
+	<div class="wrapper text-align-left padding-bottom-60">
+		<h2 class="padding-bottom-20">Sign-Up</h2>
+		<p>The answers provided by the users will generate a list of topics that will be used to curate personalized content. The users can choose to skip this process, and fill it out at a later time when prompted again.</p>
+	</div>
+	<div class="wrapper padding-bottom-60">
+		<div class="screen-float-left margin-right-10px">
+			<img src="images/webmd/signup1.png" class="screen4">
+		</div>
+		<div class="slideshow4-div margin-right-10px">	
+			<ul class="slideshow4">
+	    		<li class="slideshow-li">
+	        		<input type="radio" name="signup" checked>
+	        		<label for="2"><img src="images/webmd/form1.png" class="slideshow4-img"></label>
+	      		</li>
+	      		<li class="slideshow-li">
+	        		<input type="radio" name="signup">
+	        		<label for="3"><img src="images/webmd/form2.png" class="slideshow4-img"></label>
+	      		</li>
+	      		<li class="slideshow-li">
+	       	    	<input type="radio" name="signup">
+	        		<label for="1"><img src="images/webmd/form3.png" class="slideshow4-img"></label>
+	      		</li>
+	    	</ul>
+	    </div>
+	    <div class="screen-float-left margin-right-10px">
+			<img src="images/webmd/placeholder.png" class="screen4">
+		</div>
+		<div class="screen-float-left">
+			<img src="images/webmd/placeholder.png" class="screen4">
+		</div>
+	</div>
+	<div class="wrapper text-align-left padding-bottom-60">
+		<h2 class="padding-bottom-20">Feed</h2>
+		<p>From the generated topics, relevant content in the personalized feed section is curated. Users can add or remove topics, and set subscription settings for individual topics as well as the entire feed.</p>
+	</div>
+	<div class="wrapper padding-bottom-60">
+		<img src="images/webmd/feed1.png" class="screen3 margin-right-30px">
+		<img src="images/webmd/feed2.png" class="screen3 margin-right-30px">
+		<img src="images/webmd/feed3.png" class="screen3">
+	</div>
+	<div class="wrapper text-align-left padding-bottom-60">
+		<h2 class="padding-bottom-20">Tools</h2>
+		<p>The tools on the existing app were given more intuitive names and icons, and were put into the tools section.</p>
+	</div>
+	<div class="wrapper padding-bottom-60">
+		<div class="screen-float-left">
+			<img src="images/webmd/tools.png" class="screen3 margin-right-30px">
+		</div>
+		<div class="slideshow3-div">	
+			<ul class="slideshow3">
+	    		<li class="slideshow-li">
+	        		<input type="radio" name="tools" checked>
+	        		<label for="2"><img src="http://stevesportfol.io/images/webmd/placeholder.png" class="slideshow3-img"></label>
+	      		</li>
+	      		<li class="slideshow-li">
+	        		<input type="radio" name="tools">
+	        		<label for="3"><img src="http://stevesportfol.io/images/webmd/placeholder.png" class="slideshow3-img"></label>
+	      		</li>
+	      		<li class="slideshow-li">
+	       	    	<input type="radio" name="tools">
+	        		<label for="1"><img src="http://stevesportfol.io/images/webmd/placeholder.png" class="slideshow3-img"></label>
+	      		</li>
+	    	</ul>
+	    </div>
+	    <div class="screen-float-left">
+			<img src="images/webmd/placeholder.png" class="screen3">
+		</div>
+	</div>
+	<div class="wrapper text-align-left padding-bottom-60">
+		<h2 class="padding-bottom-20">Search</h2>
+		<p>Different topic pages in the existing app were combined into one search section, and were given more intuitive icons. Users can either browse an A-Z list of each category, or use the categories as a search filter.</p>
+	</div>
+	<div class="wrapper padding-bottom-60">
+		<img src="images/webmd/search.png" class="screen3 margin-right-30px">
+		<img src="images/webmd/placeholder.png" class="screen3 margin-right-30px">
+		<img src="images/webmd/placeholder.png" class="screen3">
+	</div>
+		<div class="wrapper text-align-left padding-bottom-60">
+		<h2 class="padding-bottom-20">Connect</h2>
+		<p>In addition to the existing feature of talking to your physician through WebMD, we also added a group share/messaging feature and combined them into the connect section. Users can instantly share content in their feed with their contacts, and receive tips from their doctors as well.</p>
+	</div>
+	<div class="wrapper">
+		<img src="images/webmd/connect.png" class="screen3 margin-right-30px">
+		<img src="images/webmd/placeholder.png" class="screen3 margin-right-30px">
+		<img src="images/webmd/placeholder.png" class="screen3">
+	</div>
+</section>
+<section class="greybg padding-60">	
+	<div class="wrapper">	
+		<h3 class="padding-bottom-20">What I've Learned</h3>
+		<h2 class="padding-bottom-20">Ask the right questions.</h2>
+		<p class="padding-bottom-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sunt in culpa qui officia deserunt mollit anim id occasase  dei daodo of est sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
+	</div>
+</section>
+<section class="whitebg padding-40">
+	<div class="wrapper">
+		<div class="toptext">
+			OTHER WORK
+		</div>
+	</div>
+	<div class="wrapper">
+	<a href="#">Back to top</a>
+	</div>
+</section>	
+	<footer>
+		<div class="wrapper">
+			<div id="socialmedia">
+				<a href="http://www.linkedin.com/in/stevenyunglee" target="_blank"><span class="fa fa-linkedin"></span></a>
+				<a href="http://www.behance.net/stevenyunglee" target="_blank"><span class="fa fa-behance"></span></a>
+				<a href="http://www.twitter.com/steeblee" target="_blank"><span class="fa fa-twitter"></a>
+				<a href="http://www.instagram.com/steeblee" target="_blank"><span class="fa fa-instagram"></span></a>
+			</div>
+			<div id="credit">
+			<p>Designed & hand-coded by Steve Lee</p>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
