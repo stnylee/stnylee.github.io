@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="667px" height="499px" viewBox="0 0 667 499" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M166,331.5 C257.403126,331.5 331.5,257.403126 331.5,166 C331.5,74.5968739 257.403126,0.5 166,0.5 C74.5968739,0.5 0.5,74.5968739 0.5,166 C0.5,257.403126 74.5968739,331.5 166,331.5 L166,331.5 Z M166,316.5 C82.8811452,316.5 15.5,249.118855 15.5,166 C15.5,82.8811452 82.8811452,15.5 166,15.5 C249.118855,15.5 316.5,82.8811452 316.5,166 C316.5,249.118855 249.118855,316.5 166,316.5 L166,316.5 Z" id="path-1"></path>
+        <rect id="path-3" x="169.624198" y="109.768021" width="138" height="34"></rect>
+        <path id="path-4" d="M180.704387,155.633307 C180.704387,155.633307 167.701927,162.376693 180.704387,146.060022 C187.273774,137.816157 204.187942,122.644518 237.703932,101.280739 C261.547232,86.0825308 343.112147,45.5472753 343.112147,45.5472753"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-1">
+            <text id="Competitive-Analysis" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.1875" fill="#000000">
+                <tspan x="424" y="115.5">Competitive Analysis</tspan>
+            </text>
+            <text id="Surveys" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.1875" fill="#000000">
+                <tspan x="495" y="180.5">Surveys</tspan>
+            </text>
+            <text id="User-Interviews" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.1875" fill="#000000">
+                <tspan x="521" y="267.5">User Interviews</tspan>
+            </text>
+            <text id="Persona-Development" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.1875" fill="#000000">
+                <tspan x="503" y="356.5">Persona Development</tspan>
+            </text>
+            <text id="User-Flows" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.1875" fill="#000000">
+                <tspan x="265" y="471.5">User Flows</tspan>
+            </text>
+            <text id="Wireframes" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.1875" fill="#000000">
+                <tspan x="61.5458984" y="293.5">Wireframes</tspan>
+                <tspan x="56.2548828" y="307.5">and Mockups</tspan>
+            </text>
+            <text id="Sketches" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.1875" fill="#000000">
+                <tspan x="141" y="416.5">Sketches</tspan>
+            </text>
+            <text id="Ideation" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.1875" fill="#000000">
+                <tspan x="367" y="458">Ideation</tspan>
+            </text>
+            <text id="Prototype" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.1875" fill="#000000">
+                <tspan x="84" y="211.5">Prototype</tspan>
+            </text>
+            <text id="Usability-Testing" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.1875" fill="#000000">
+                <tspan x="93" y="130.5">Usability Testing</tspan>
+            </text>
+            <text id="Final-Design" font-family="Roboto-Bold, Roboto" font-size="14" font-weight="bold" letter-spacing="0.21875" fill="#000000">
+                <tspan x="459" y="39.5">Final Design</tspan>
+            </text>
+            <text id="Start-of-Project" font-family="Roboto-Bold, Roboto" font-size="14" font-weight="bold" letter-spacing="0.21875" fill="#000000">
+                <tspan x="93" y="36.5">Start of Project</tspan>
+            </text>
+            <g id="Group" transform="translate(312.065630, 229.140561) rotate(-23.000000) translate(-312.065630, -229.140561) translate(131.565630, 4.140561)">
+                <circle id="Oval-1" stroke="#F05F74" stroke-width="15" fill="#FFFFFF" cx="180" cy="265" r="158"></circle>
+                <g id="Rectangle-8" transform="translate(14.000000, 99.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#2582CA" xlink:href="#path-1"></use>
+                    <rect fill="#98CB4A" mask="url(#mask-2)" x="-17" y="-83" width="181" height="473"></rect>
+                </g>
+                <g id="Rectangle-7">
+                    <use fill="#D8D8D8" transform="translate(238.624198, 126.768021) rotate(23.000000) translate(-238.624198, -126.768021) " xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-3"></use>
+                </g>
+                <path d="M96.1148837,144.417576 C96.1148837,144.417576 105.262592,130.616604 110.69362,123.782225 C116.194693,116.859702 129.568108,103.463622 129.568108,103.463622" id="Line" stroke="#F05F74" stroke-width="15" stroke-linecap="square" transform="translate(112.841496, 123.940599) rotate(25.000000) translate(-112.841496, -123.940599) "></path>
+                <path d="M144.061665,131.384998 C202.143506,83.6826859 184.658234,97.5581169 210.179234,75.6115265 C241.734911,48.475461 276.296804,19.8380547 276.296804,19.8380547" id="Line" stroke="#2582CA" stroke-width="15" stroke-linecap="square" transform="translate(210.179235, 75.611527) rotate(79.000000) translate(-210.179235, -75.611527) "></path>
+                <g id="Line" stroke-linecap="square">
+                    <use stroke="#FFFFFF" stroke-width="23" transform="translate(259.018831, 101.280739) rotate(31.000000) translate(-259.018831, -101.280739) " xlink:href="#path-4"></use>
+                    <use stroke="#F05F74" stroke-width="15" xlink:href="#path-4"></use>
+                </g>
+                <circle id="Oval-2" stroke="#2582CA" stroke-width="3" fill="#FFFFFF" cx="292.5" cy="155.5" r="26.5"></circle>
+                <circle id="Oval-2" stroke="#2582CA" stroke-width="3" fill="#FFFFFF" cx="334.5" cy="233.5" r="26.5"></circle>
+                <circle id="Oval-2" stroke="#2582CA" stroke-width="3" fill="#FFFFFF" cx="324.5" cy="325.5" r="26.5"></circle>
+                <circle id="Oval-2" stroke="#2582CA" stroke-width="3" fill="#FFFFFF" cx="272.5" cy="397.5" r="26.5"></circle>
+                <circle id="Oval-2" stroke="#98CB4A" stroke-width="3" fill="#FFFFFF" cx="180.5" cy="423.5" r="26.5"></circle>
+                <circle id="Oval-2" stroke="#98CB4A" stroke-width="3" fill="#FFFFFF" cx="89.5" cy="397.5" r="26.5"></circle>
+                <circle id="Oval-2" stroke="#98CB4A" stroke-width="3" fill="#FFFFFF" cx="36.5" cy="325.5" r="26.5"></circle>
+                <circle id="Oval-2" stroke="#98CB4A" stroke-width="3" fill="#FFFFFF" cx="26.5" cy="233.5" r="26.5"></circle>
+                <circle id="Oval-2" stroke="#F05F74" stroke-width="3" fill="#FFFFFF" cx="69.5" cy="155.5" r="26.5"></circle>
+                <circle id="Oval-2" stroke="#F05F74" stroke-width="3" fill="#FFFFFF" cx="150.5" cy="105.5" r="26.5"></circle>
+            </g>
+            <path d="M232,130.5 C235.025,130.5 237.5,128.025 237.5,125 C237.5,121.975 235.025,119.5 232,119.5 C228.975,119.5 226.5,121.975 226.5,125 C226.5,128.025 228.975,130.5 232,130.5 L232,130.5 Z M232,133.25 C228.2875,133.25 221,135.0375 221,138.75 L221,141.5 L243,141.5 L243,138.75 C243,135.0375 235.7125,133.25 232,133.25 L232,133.25 Z" id="Shape" fill="#F05F74"></path>
+            <g id="dock" transform="translate(243.000000, 119.500000)" fill="#F05F74">
+                <path d="M2,22 L10,22 L10,20 L2,20 L2,22 L2,22 Z M10,0 L2,0 C0.9,0 0,0.9 0,2 L0,16 C0,17.1 0.9,18 2,18 L10,18 C11.1,18 12,17.1 12,16 L12,2 C12,0.9 11.1,0 10,0 L10,0 Z M10,14 L2,14 L2,4 L10,4 L10,14 L10,14 Z" id="Shape"></path>
+            </g>
+            <g id="messenger" transform="translate(380.000000, 403.500000)">
+                <path d="M18,0 L2,0 C0.9,0 0,0.9 0,2 L0,20 L4,16 L18,16 C19.1,16 20,15.1 20,14 L20,2 C20,0.9 19.1,0 18,0 L18,0 Z" id="Shape" fill="#98CB4A"></path>
+                <text id="!" font-family="Roboto-Black, Roboto" font-size="12" font-weight="700" letter-spacing="0.1875" fill="#FFFFFF">
+                    <tspan x="9" y="12">!</tspan>
+                </text>
+            </g>
+            <g id="Group-2" transform="translate(293.000000, 422.500000) rotate(-270.000000) translate(-293.000000, -422.500000) translate(285.000000, 406.500000)" fill="#98CB4A">
+                <g id="call-split" transform="translate(0.000000, -0.000000)">
+                    <path d="M10,0 L12.3,2.3 L9.4,5.2 L10.8,6.6 L13.7,3.7 L16,6 L16,0 L10,0 Z" id="Shape"></path>
+                    <path d="M6,0 L0,0 L0,6 L2.3,3.7 L7,8.4 L7,16 L9,16 L9,7.6 L3.7,2.3 L6,0 Z" id="Shape"></path>
+                </g>
+                <g id="check-box-blank" transform="translate(4.000000, 16.000000)">
+                    <path d="M8,0 L1,0 C0.45,0 0,0.8 0,1.77777778 L0,14.2222222 C0,15.2 0.45,16 1,16 L8,16 C8.55,16 9,15.2 9,14.2222222 L9,1.77777778 C9,0.8 8.55,0 8,0 L8,0 Z" id="Shape"></path>
+                </g>
+            </g>
+            <text id="LEARN" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="0.28125" fill="#2582CA">
+                <tspan x="395" y="231.5">LEARN</tspan>
+            </text>
+            <text id="BUILD" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="0.28125" fill="#98CB4A">
+                <tspan x="251" y="348.5">BUILD</tspan>
+            </text>
+            <text id="MEASURE" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="0.28125" fill="#F05F74">
+                <tspan x="217" y="188.5">MEASURE</tspan>
+            </text>
+            <path d="M393.361111,123.777778 L392.25,123.777778 L391.833333,123.361111 C393.222222,121.833333 394.055556,119.75 394.055556,117.527778 C394.055556,112.527778 390.027778,108.5 385.027778,108.5 C380.027778,108.5 376,112.527778 376,117.527778 C376,122.527778 380.027778,126.555556 385.027778,126.555556 C387.25,126.555556 389.333333,125.722222 390.861111,124.333333 L391.277778,124.75 L391.277778,125.861111 L398.222222,132.805556 L400.305556,130.722222 L393.361111,123.777778 L393.361111,123.777778 Z M385.027778,123.777778 C381.555556,123.777778 378.777778,121 378.777778,117.527778 C378.777778,114.055556 381.555556,111.277778 385.027778,111.277778 C388.5,111.277778 391.277778,114.055556 391.277778,117.527778 C391.277778,121 388.5,123.777778 385.027778,123.777778 L385.027778,123.777778 Z" id="Shape" fill="#2582CA"></path>
+            <g id="translate" transform="translate(447.000000, 165.500000)" fill="#2582CA">
+                <path d="M0,14.2 L0,18 L3.8,18 L14.8,6.9 L11,3.1 L0,14.2 L0,14.2 Z M17.7,4 C18.1,3.6 18.1,3 17.7,2.6 L15.4,0.3 C15,-0.1 14.4,-0.1 14,0.3 L12.2,2.1 L16,5.9 L17.7,4 L17.7,4 Z M9,16 L7,18 L20,18 L20,16 L9,16 L9,16 Z" id="Shape"></path>
+            </g>
+            <g id="people" transform="translate(473.000000, 258.500000)" fill="#2582CA">
+                <path d="M15,6 C16.7,6 18,4.7 18,3 C18,1.3 16.7,0 15,0 C13.3,0 12,1.3 12,3 C12,4.7 13.3,6 15,6 L15,6 Z M7,6 C8.7,6 10,4.7 10,3 C10,1.3 8.7,0 7,0 C5.3,0 4,1.3 4,3 C4,4.7 5.3,6 7,6 L7,6 Z M7,8 C4.7,8 0,9.2 0,11.5 L0,14 L14,14 L14,11.5 C14,9.2 9.3,8 7,8 L7,8 Z M15,8 C14.7,8 14.4,8 14,8.1 C15.2,8.9 16,10.1 16,11.5 L16,14 L22,14 L22,11.5 C22,9.2 17.3,8 15,8 L15,8 Z" id="Shape"></path>
+            </g>
+            <path d="M464,350.5 C467.025,350.5 469.5,348.025 469.5,345 C469.5,341.975 467.025,339.5 464,339.5 C460.975,339.5 458.5,341.975 458.5,345 C458.5,348.025 460.975,350.5 464,350.5 L464,350.5 Z M464,353.25 C460.2875,353.25 453,355.0375 453,358.75 L453,361.5 L475,361.5 L475,358.75 C475,355.0375 467.7125,353.25 464,353.25 L464,353.25 Z" id="Shape" fill="#2582CA"></path>
+            <text id="?" font-family="Roboto-Black, Roboto" font-size="10" font-weight="700" letter-spacing="0.15625" fill="#2582CA">
+                <tspan x="447" y="172.5">?</tspan>
+            </text>
+            <g id="content-copy" transform="translate(207.000000, 365.500000)" fill="#98CB4A">
+                <path d="M14,0 L2,0 C0.9,0 0,0.9 0,2 L0,16 L2,16 L2,2 L14,2 L14,0 L14,0 Z M17,4 L6,4 C4.9,4 4,4.9 4,6 L4,20 C4,21.1 4.9,22 6,22 L17,22 C18.1,22 19,21.1 19,20 L19,6 C19,4.9 18.1,4 17,4 L17,4 Z M17,20 L6,20 L6,6 L17,6 L17,20 L17,20 Z" id="Shape"></path>
+            </g>
+            <g id="create" transform="translate(218.000000, 364.500000)" stroke="#FFFFFF" fill="#98CB4A">
+                <path d="M0,14.2 L0,18 L3.8,18 L14.8,6.9 L11,3.1 L0,14.2 L0,14.2 Z M17.7,4 C18.1,3.6 18.1,3 17.7,2.6 L15.4,0.3 C15,-0.1 14.4,-0.1 14,0.3 L12.2,2.1 L16,5.9 L17.7,4 L17.7,4 Z" id="Shape"></path>
+            </g>
+            <g id="invision" transform="translate(173.000000, 197.500000)">
+                <g id="Group">
+                    <path d="M17.8769533,0 L1.78212526,0 C0.797905404,0 0,0.797905404 0,1.78212526 L0,17.8769533 C0,18.8611732 0.797905404,19.6590786 1.78212526,19.6590786 L17.8769533,19.6590786 C18.8611732,19.6590786 19.6590786,18.8611732 19.6590786,17.8769533 L19.6590786,1.78212526 C19.6590786,0.797905404 18.8611732,0 17.8769533,0" id="Shape" fill="#F05F74"></path>
+                    <path d="M6.57007896,6.18531207 C7.22359439,6.18531207 7.77099548,5.67305903 7.77099548,5.00174619 C7.77099548,4.33088013 7.22359439,3.81877602 6.57007896,3.81877602 C5.91656353,3.81877602 5.36923691,4.33088013 5.36923691,5.00174619 C5.36923691,5.67305903 5.91656353,6.18531207 6.57007896,6.18531207" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M4.07992901,12.5223118 C4.00940951,12.8225595 3.9739636,13.1467854 3.9739636,13.4112894 C3.9739636,14.453444 4.53908764,15.1453095 5.74007862,15.1453095 C6.73613861,15.1453095 7.54357568,14.5537499 8.12493339,13.5987208 L7.76995294,15.0234828 L9.74777543,15.0234828 L10.8781725,10.4896823 C11.1606972,9.34171117 11.7081728,8.74590709 12.538322,8.74590709 C13.191763,8.74590709 13.5979762,9.15226915 13.5979762,9.82313521 C13.5979762,10.0175665 13.5802532,10.2292739 13.5096592,10.4589277 L12.9267378,12.5428644 C12.8384209,12.8431123 12.8032728,13.1435834 12.8032728,13.4258848 C12.8032728,14.4152428 13.3858964,15.1389054 14.6045359,15.1389054 C15.6465415,15.1389054 16.4765419,14.4681138 16.9357749,12.8609096 L16.1587946,12.5608853 C15.7701554,13.6376666 15.4346107,13.8323213 15.1697344,13.8323213 C14.9047836,13.8323213 14.7634468,13.6558364 14.7634468,13.3027921 C14.7634468,13.1438813 14.7988927,12.9674708 14.8517637,12.7550932 L15.4170366,10.724772 C15.5582246,10.2480394 15.611319,9.82529471 15.611319,9.43687901 C15.611319,7.9180662 14.6928528,7.12544793 13.5802532,7.12544793 C12.538322,7.12544793 11.4785934,8.0652859 10.9489153,9.05442054 L11.337331,7.27899725 L8.31742848,7.27899725 L7.89349236,8.84278756 L9.30641422,8.84278756 L8.4364255,12.3261678 C7.75312362,13.8449806 6.49807014,13.8696289 6.34057412,13.8343319 C6.08195298,13.7760248 5.91656353,13.6778039 5.91656353,13.341738 C5.91656353,13.147828 5.95186052,12.8693243 6.04017744,12.5334818 L7.36485679,7.27899725 L4.00940951,7.27899725 L3.58547339,8.84278756 L4.98059778,8.84278756 L4.07992901,12.5223118" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+            <g id="tab-unselected" transform="translate(162.000000, 289.500000)" fill="#98CB4A">
+                <path d="M0,6 L2,6 L2,4 L0,4 L0,6 L0,6 Z M0,10 L2,10 L2,8 L0,8 L0,10 L0,10 Z M0,2 L2,2 L2,0 C0.9,0 0,0.9 0,2 L0,2 Z M4,18 L6,18 L6,16 L4,16 L4,18 L4,18 Z M0,14 L2,14 L2,12 L0,12 L0,14 L0,14 Z M2,18 L2,16 L0,16 C0,17.1 0.9,18 2,18 L2,18 Z M16,0 L8,0 L8,6 L18,6 L18,2 C18,0.9 17.1,0 16,0 L16,0 Z M16,14 L18,14 L18,12 L16,12 L16,14 L16,14 Z M4,2 L6,2 L6,0 L4,0 L4,2 L4,2 Z M16,18 C17.1,18 18,17.1 18,16 L16,16 L16,18 L16,18 Z M16,10 L18,10 L18,8 L16,8 L16,10 L16,10 Z M8,18 L10,18 L10,16 L8,16 L8,18 L8,18 Z M12,18 L14,18 L14,16 L12,16 L12,18 L12,18 Z" id="Shape"></path>
+            </g>
+            <g id="create" transform="translate(171.000000, 283.500000)" stroke="#FFFFFF" fill="#98CB4A">
+                <path d="M0,14.2 L0,18 L3.8,18 L14.8,6.9 L11,3.1 L0,14.2 L0,14.2 Z M17.7,4 C18.1,3.6 18.1,3 17.7,2.6 L15.4,0.3 C15,-0.1 14.4,-0.1 14,0.3 L12.2,2.1 L16,5.9 L17.7,4 L17.7,4 Z" id="Shape"></path>
+            </g>
+            <path d="M421.702723,29.1171268 C421.52707,28.0218795 422.274191,27.2617497 423.360112,27.4176991 L445.691442,30.6247059 C446.782446,30.7813851 447.024349,31.5209368 446.222729,32.2851375 L426.839302,50.7637734 C426.04172,51.5241252 425.252417,51.2505173 425.077104,50.1573915 L421.702723,29.1171268 Z" id="Rectangle-9" fill="#F05F74" transform="translate(434.186673, 39.295934) rotate(-236.000000) translate(-434.186673, -39.295934) "></path>
+            <text id="Iterations" font-family="Roboto-Bold, Roboto" font-size="14" font-weight="bold" letter-spacing="0.21875" fill="#000000">
+                <tspan x="305" y="270.5">Iterations</tspan>
+            </text>
+            <g id="sync-green" transform="translate(281.000000, 257.500000)" fill="#000000">
+                <path d="M0,8 C0,10.2 0.9,12.2 2.4,13.6 L0,16 L6,16 L6,10 L3.8,12.2 C2.7,11.2 2,9.7 2,8 C2,5.4 3.7,3.2 6,2.3 L6,0.3 C2.6,1.2 0,4.3 0,8 L0,8 Z M16,0 L10,0 L10,6 L12.2,3.8 C13.3,4.8 14,6.3 14,8 C14,10.6 12.3,12.8 10,13.7 L10,15.8 C13.4,14.9 16,11.8 16,8.1 C16,5.9 15.1,3.9 13.6,2.5 L16,0 L16,0 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

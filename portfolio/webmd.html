@@ -6,7 +6,17 @@
 	<link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css">
 	<link rel='icon' type='image/x-icon' href='favicon.ico'>
 	<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=0">
-	<title>Steve Lee - UX Designer</title>
+	<title>Steve Lee - Designer</title>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73374130-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 <body>
 	<header class="clearfix" id="notfixed">
@@ -31,42 +41,52 @@
 	<section id="work-first-section">	
 		<div class="wrapper padding-bottom-60">
 			<h1>WebMD Mobile App</h1>	
-			<p>Personalized medical & health content curation</p> 
+			<p class="margin-top-10">Personalized medical & health content curation</p> 
 		</div>
 		<div class="wrapper">
-			<img src="images/webmd/three.png" class="three">
-		</div>
-		<div class="wrapper">
-			<div class="lefthalf">
-				<h3 class="padding-top-60">Project Scope</h3>
-				<p>This project was completed for General Assembly's UXDi program over the course of 2 weeks. I developed this project as part of a 3 member team of UX design students to solve a problem for WebMD, a medical information & news website.</p>
-			</div>
-			<div class="righthalf">
-				<h3 class="padding-top-60">My Role</h3>
-				<p>Our team collaboratively worked on ideation of the solution, research, synthesis and iteration. I took responsibility of wireframing and prototyping. As an extension to the project, I also worked on the visual design and created a high-fidelity mockup of the app.</p>
-			</div>
-		</div>
-		<div class="wrapper middle margin-top-120">
-			<h3>Challenge</h3>
-			<h2>A more personalized experience.</h2>
-			<p> WebMD wants to increase its user acquisition and retention. The company has come to an understanding that users have difficulty parsing through its massive collection of content. Our challenge was to create an experience that is more personalized and meaningful to the users.</p>	
-		</div>
-		<div class="wrapper middle margin-top-120">	
-			<h3>Solution</h3>
-			<h2>Relevant content, all in one place.</h2>
-			<p>The new, redesigned WebMD mobile app provides users with a personalized experience by curating and presenting relevant medical tips and news as well as WebMD-exclusive content based on their personal information, family history of medical issues, and daily habits.</p>
+			<img src="images/webmd/three.png" class="three margin-bottom-60">
+			<p class="bold margin-bottom-10">Coursework Project</p>
+			<p><span class="bold">My Role - </span>UX, visual, interaction design, research</p>
 		</div>
 	</section>
-	<section class="greybg padding-60">
-		<div class="wrapper text-align-left">
-				<h3>Process</h3>
-				<h2>Research, confirm, design.</h2>
+	<section class="greybg padding-80">
+		<div class="wrapper middle text-align-left">
+			<h3>Challenge</h3>
+			<h2>Increase user acquisition and retention.</h2>
+			<p>WebMD is having a hard time increasing the user acquisition and retention rate. It also wants to provide a more personalized experience for the users when browsing through its massive library of medical content.</p>	
+		</div>
+		<div class="wrapper middle margin-top-120 text-align-left">	
+			<h3>Solution</h3>
+			<h2>Relevant content, all in one place.</h2>
+			<p>The new, redesigned WebMD mobile app provides users with a personalized experience by curating and presenting relevant medical tips, news and content based on their personal information, family history of medical issues, and habits.</p>
+		</div>
+	</section>
+	<section class="whitebg padding-80">
+		<div class="wrapper">
+			<h3>Process</h3>
+			<img src="images/webmd/process.png" class="margin-top-40 sitemap">
+		</div>
+		<div class="wrapper text-align-left padding-60">
+			<h2>Competitive Analysis</h2>	
+			<div class="righthalf">
+				<img src="images/webmd/competitive.png" class="competitive-analysis margin-top-40">
+			</div>
+			<div class="lefthalf margin-top-80">
+				<p>To note the key features and different strengths of similar products, we decided to analyze three main competitors of WebMD: Mayo Clinic, Healthline, and Everday Health.</p>
+				<p class="margin-top-20 bold">Key takeaways:</p>
+			<ul>
+				<li>Most of the competitors failed to provide the users with a personalized experience</li>
+				<li>News feed was a feature that existed in all of the competitors</li>
+			</ul>
+			</div>
+		</div>
+		<div class="wrapper text-align-left padding-60">
+				<h2>Survey</h2>
 				<p>From our existing knowledge and experience with WebMD, our assumption was simple--users only come to WebMD when they are sick, and do not proactively browse its content to get medical information when they are not.</p>
-				<p class="m20">To confirm our assumption and to understand the motivation and behavior of our users, we conducted two rounds of surveys. From the <span class="bold">first survey of 192 participants</span>, we learned that:</p>
+				<p class="margin-top-20">To confirm our assumption and to understand the motivation and behavior of our users, we conducted two rounds of surveys. From the <span class="bold">first survey of 192 participants</span>, we learned that:</p>
 				<ul>
-					<li>71% of the participants have used WebMD before</li>
-					<li>But they mostly only used WebMD to diagnose symptoms when they were sick</li>
-					<li>Social media feed was the most common medium users chose in receiving medical news and updates</li>
+					<li>Most people have used WebMD before, but only on occasions when they were sick and wanted to diagnose their symptoms</li>
+					<li class="margin-bottom-40">Social media feed was the most common medium users chose in receiving medical news and updates</li>
 				</ul>
 				<p>From this result, we confirmed that <span class="bold">user acquisition was not the issue at hand,</span> but we had to create a feature that would bring these users back to WebMD on a regular basis.</p>
 		</div>
@@ -91,34 +111,224 @@
 		</div>
 		<div class="wrapper quote padding-40">
 			<hr>
-			<div class="padding-20">"Social media feed was the most common method for the users in keeping updated with a certain medical condition."</div>
+			<div class="padding-40">"Social media feed was the most common method for the users in keeping updated with a certain medical condition."</div>
 			<hr>
 		</div>
 		<div class="wrapper text-align-left">
-			<p>From these insights, we decided to implement the new feature of a personalized news feed based on users' information. This would create a more meaningful experience for users interested in receiving relevant medical news and information. It would also have a more refined content compared to receiving information from a social media feed.</p>
-			<p class="m20">To implement this feature, we wanted to ensure that the users would be open to share their personal information and brief medical history with a secured and private app. So we conducted a <span class="bold">second round of survey</span>, which confirmed that 79% of users who currently suffer from a medical condition or have a history of medical condition would be willing to provide their information in order to receive a more personalized medical information.</p>
-			<h2 class="m40">Restructuring the existing features</h2>
-			<p>In addition to the new personalized feed feature, we decided on a complete restructuring of the app while keeping a lot of its existing tools which we found to be valuable. Ambiguous section titles were changed, and scattered glossary pages were combined into one search page.</p>
+			<p>From these insights, we decided to focus on a new feature of a personalized news feed based on users' information. This would provide a more refined content compared to receiving information from a social media feed.</p>
+			<p class="margin-top-20">We wanted to ensure that the users would be open to share their personal information and brief medical history with a secured and private app. So we conducted a second round of survey which confirmed that <span class="bold">79% of users who currently suffer from a medical condition or have a history of medical condition</span> would be willing to provide their information in order to receive a more personalized medical information.</p>
+		<!-- 	<h2 class="margin-top-40">Restructuring the existing features</h2>
+			<p>In addition to the new personalized feed feature, we decided on a complete restructuring of the app while keeping a lot of its existing tools which we found to be valuable. Ambiguous section titles were changed, and scattered glossary pages were combined into one search page.</p> -->
+		</div>
+		<div class="wrapper">
+			<img src="images/webmd/postit.jpg" class="margin-top-60 postit">
+			<p class="image-exp">Analyzing the information obtained from our survey.</p>
+		</div>
+		<div class="wrapper text-align-left">
+			<h2 class="margin-top-80">User Interviews</h2>
+			<p class="margin-top-20">We conducted <span class="bold">six user interviews</span> with potential WebMD users (have used WebMD before, primarily use the internet to receive medical information, or consider themselves health-conscious) to understand the user needs better.</p>
+			<p class="margin-top-20 bold">Key takeaways:</p>
+			<ul>
+				<li>Users with family history of certain medical conditions wanted a tool to easily keep themselves informed on the topic</li>
+				<li>Users are often frustrated with the process of browsing through Google search results to find relevant medical information</li>
+			</ul>
+		</div>
+		<div class="wrapper">
+			<h2 class="margin-top-80 text-align-left">Personas</h2>
+			<p class="margin-top-20 text-align-left">Based on the information we gathered, we developed two personas to help us clarify the target audience and focus our designs on their needs.</p>
+			<div class="persona padding-60 clearfix">	
+				<div class="personatitle  text-align-left">Mark, 22</div>
+				<div class="personaone clearfix">
+					<img src="images/webmd/mark.png" class="personapic">
+					<div class="persona-description  text-align-left clearfix">
+						<p class="persona-occupation">Student</p>
+						<p class="persona-quote margin-top-10">"Diabetes runs in my family, and I want to see all the relevant content on diabetes that can help me prevent it."</p>
+						<p class="margin-top-20">Mark recently started worrying about the possibility of diabetes, after hearing his cousin was just diagnosed with type 2 diabetes. He would like an all-in-one-place to get helpful information and tips about preventing diabetes instead of having to browse through Google search results.</p>
+						<p>
+					</div>
+				</div>
+				<div class="personatwo  text-align-left">
+					<div class="personatwo-left">
+						<h3>Goals</h3>
+						<ul>
+							<li>Personalized account to receive health-related content that are relevant to him</li>
+							<li>Quick and easy access to health articles/recipes</li>
+							<li>Share feature to share findings with family members</li>
+						</ul>
+					</div>
+					<div class="personatwo-right">
+						<h3>Pain Points</h3>
+						<ul>
+							<li>Navigating through a lot of content to find the right information</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="persona padding-60 clearfix">	
+				<div class="personatitle  text-align-left" id="title-two">Jenny, 28</div>
+				<div class="personaone">
+					<img src="images/webmd/jenny.png" class="personapic">
+					<div class="persona-description text-align-left">
+						<p class="persona-occupation">Accountant</p>
+						<p class="persona-quote margin-top-10">"I was diagnosed with asthma last month. I want to keep it under control, but I don't have the time to do research."</p>
+						<p class=" margin-top-20">Jenny is a busy professional who was just diagnosed with asthma. She works 50+ hours a week, and doesn't have much free time. She would like to receive personalized medical tips about asthma, but also be able to bookmark the ones she is interested in for later.</p>
+						<p>
+					</div>
+				</div>
+				<div class="personatwo  text-align-left">
+					<div class="personatwo-left">
+						<h3>Goals</h3>
+						<ul>
+							<li>Gather articles and guides on how to care for her condition without doing a lot of research</li>
+							<li>Be able browse articles and save them for later</li>
+							<li>Option to easily search WebMD database for medications and treatment choices</li>
+						</ul>
+					</div>
+					<div class="personatwo-right">
+						<h3>Pain Points</h3>
+						<ul>
+							<li>Spending too much time researching and organizing information</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper middle text-align-left margin-60">
+			<h2>Ideation</h2>
+			<p>With the information we gathered from our survey and interviews, we decided to prioritize these features and aspects for the app.</p>
+			<div class="ideation-div margin-top-60">
+				<img src="images/webmd/ideation1.svg">
+				<div class="ideation-text">
+					<p class="bold">Personalized News Feed</p>
+					<p class="margin-top-20">This feature will gather relevant medical information based on users' personal and family medical history and present them to the users in a simple way.</p>
+				</div>
+			</div>
+			<div class="ideation-div margin-top-60">
+				<img src="images/webmd/ideation2.svg">
+				<div class="ideation-text">
+					<p class="bold">Customizable Topics</p>
+					<p class="margin-top-20">News feed will curate information based on topics generated by the users' information. Users can also customize these topics.</p>
+				</div>
+			</div>
+			<div class="ideation-div margin-top-60">
+				<img src="images/webmd/ideation3.svg">
+				<div class="ideation-text">
+					<p class="bold">Share and Bookmark</p>
+					<p class="margin-top-20">Make it easy for users to share content with others and save them for later reading.</p>
+				</div>
+			</div>
+			<div class="ideation-div margin-top-60">
+				<img src="images/webmd/ideation4.svg">
+				<div class="ideation-text">
+					<p class="bold">Simple and Intuitive Interface</p>
+					<p class="margin-top-20">Increase discoverability of WebMD's massive amount of content and its tools.</p>
+				</div>
+			</div>
+		</div>
+			<div class="wrapper margin-top-80">
+				<h3>Mark's User Flow</h3>
+				<div class="middle wrapper margin-top-40">
+					<p class="text-align-left">In this flow, Mark is logging in for the first time. He signs up for an account and enters his personal information. Then he browses through the news feed, finds an article and shares it with his contacts.</p>
+				</div>
+				<img src="images/webmd/flow1.png" class="flow margin-top-20">
+			</div>
+			<div class="wrapper margin-top-40">
+				<h3>Jenny's User Flow</h3>
+				<div class="middle wrapper margin-top-40">
+					<p class="text-align-left">In this flow, Jenny completes three tasks through her use case.</p>
+					<p class="text-align-left margin-top-10">1. Jenny browses her personalized news feed, and finds and bookmarks an article</p> 
+					<p class="text-align-left margin-top-10">2. She then browses through My WebMD to see her saved article</p>
+					<p class="text-align-left margin-top-10">3. She searches the WebMD database and bookmarks medical information</p>
+				</div>
+				<img src="images/webmd/flow2.png" class="flow margin-top-20">
+			</div>
+		<div class="wrapper text-align-left">
+			<h2 class="margin-top-20">Sketches</h2>
+			<p>In the early sketches, we came up with a few different UI styles, and ultimately decided on a bottom menu bar. Since many people were going to their social media for their medical content, we decided to create a sense of familiarity for the users by benchmarking Facebook and Twitter's navigation style.</p>
+		</div>
+		<div class="wrapper margin-60">
+			<div class="screen-float-left margin-right-30px">
+				<img src="images/webmd/scan4.png" class="screen4">
+			</div>
+			<div class="screen-float-left margin-right-30px">
+				<img src="images/webmd/scan1.png" class="screen4">
+			</div>
+			<div class="screen-float-left margin-right-30px">
+				<img src="images/webmd/scan2.png" class="screen4">
+			</div>
+			<div class="screen-float-left">
+				<img src="images/webmd/scan3.png" class="screen4">
+			</div>
+		</div>
+		<div class="wrapper text-align-left">
+			<h2 class="margin-top-80">Wireframes</h2>
+			<p>After doing a couple rounds of paper prototyping testing and iterations, our group decided on making the news feed as the landing page, to emphasize it as the main feature of the app even more.</p>
+		</div>
+		<div class="wrapper margin-60">
+			<div class="screen-float-left margin-right-30px">
+				<img src="images/webmd/wireframe1.png" class="screen4 shadow">
+			</div>
+			<div class="screen-float-left margin-right-30px">
+				<img src="images/webmd/wireframe2.png" class="screen4 shadow">
+			</div>
+			<div class="screen-float-left margin-right-30px">
+				<img src="images/webmd/wireframe3.png" class="screen4 shadow">
+			</div>
+			<div class="screen-float-left">
+				<img src="images/webmd/wireframe4.png" class="screen4 shadow">
+			</div>
+		</div>
+		<div class="wrapper text-align-left margin-60">
+			<h2>Usability Testing</h2>
+		</div>
+		<div class="wrapper">
+			<div class="utleft">
+				<img src="images/webmd/ut.jpg">
+			</div>
+			<div class="utright text-align-left">
+			After we created wireframes, we created a clickable prototype on InVision, and conducted usability testing on potential WebMD users.
+			<ul>
+				<li>Users found the navigation and overall UI layout intuitive and familiar</li>
+				<li>When instructed to find the Symptom Checker tool, many users went to the search menu instead of the Tools menu</li>
+				<li>Users responded negatively to the message tool, and would not use the feature</li>
+			</ul>
+			</div>
+		</div>
+		<div class="wrapper text-align-left margin-60">
+		<p>Iterating based on the results of the usability testing, we made a couple last-minute pivots:</p>
+		<ul> 
+		<li>Include the Symptom Checker tool in both Tools and Search menu</li> 
+		<li>Scratched the idea of the Messages tool altogether</li> 
+		</div>
+		<div class="wrapper">
+			<h2 class="margin-top-80">Site Map</h2>
+			<img src="images/webmd/sitemap.png" class="sitemap margin-top-40">
 		</div>
 	</section>
-	<section class="whitebg padding-60">
+	<section class="greybg padding-80">
 		<div id="finaldesign" class="wrapper text-align-left">	
 			<h3>Final Design</h3>
 			<h2>Introducing the new, personalized WebMD.</h2>
-			<p>You can view the WebMD prototype <a href="#" class="webmdhref">here</a>. (In progress)</p>
 		</div>
 		<div class="wrapper text-align-left">
 			<h2>Onboarding Flow</h2>
-			<p>In the onboarding flow, we wanted to ensure that users knew why asking the personal information, and how it was going to benefit them. to eliminate as much hesitancy from the users as possible, we also emphasized the security and privacy of the app as well.</p>
+			<p>In the onboarding flow, we wanted to ensure that users knew why asking the personal information, and how it was going to benefit them. To eliminate as much hesitancy from the users as possible, we also emphasized the app's security and privacy.</p>
 		</div>
 		<div class="wrapper margin-60">
-			<div class="screen-float-left margin-right-20px">
+			<div class="iphone-background">
+				<iframe src="https://player.vimeo.com/video/156941074?autoplay=1&loop=1&automute=0&autopause=0" width="276" height="491" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="wrapper padding-bottom-60">
+			<div class="screen-float-left margin-right-30px">
 				<img src="images/webmd/splash1.png" class="screen4">
 			</div>
-			<div class="screen-float-left margin-right-20px">
+			<div class="screen-float-left margin-right-30px">
 				<img src="images/webmd/splash2.png" class="screen4">
 			</div>
-			<div class="screen-float-left margin-right-20px">
+			<div class="screen-float-left margin-right-30px">
 				<img src="images/webmd/splash3.png" class="screen4">
 			</div>
 			<div class="screen-float-left">
@@ -130,13 +340,13 @@
 			<p>The answers provided by the users will generate a list of topics that will be used to curate personalized content. The users can choose to skip this process, and fill it out at a later time when prompted again.</p>
 		</div>
 		<div class="wrapper margin-60">
-			<div class="screen-float-left margin-right-20px">
+			<div class="screen-float-left margin-right-30px">
 				<img src="images/webmd/signup1.png" class="screen4">
 			</div>
-			<div class="screen-float-left margin-right-20px">
+			<div class="screen-float-left margin-right-30px">
 				<img src="images/webmd/form1.png" class="screen4">
 			</div>
-		    <div class="screen-float-left margin-right-20px">
+		    <div class="screen-float-left margin-right-30px">
 				<img src="images/webmd/form2.png" class="screen4">
 			</div>
 			<div class="screen-float-left">
@@ -144,112 +354,73 @@
 			</div>
 		</div>
 		<div class="wrapper text-align-left">
-			<h2>Topics</h2>
-			<p>Once the users fill out their information, a list of topics will be generated which will be used to provide relevant content. Ihe users can edit the list of topics before proceeding, and add new topics as well. I decided to add a little fun factor to the onboarding process by implementing interactivity to the topic circles.</p>
+				<h2>Topics</h2>
+				<p>Once the users fill out their information, a list of topics will be generated which will be used to provide relevant content. They can customize the list by adding more topics, or removing one of the generated ones.</p>
 		</div>
-		<div class="wrapper margin-60">
-			<div class="screen-float-left">
-				<img src="images/webmd/topic1.png" class="screen3 margin-right-30px">
-			</div>
-			<div class="screen-float-left">
-				<img src="images/webmd/placeholder.png" class="screen3 margin-right-30px">
-			</div>
-			<div class="screen-float-left">
-				<img src="images/webmd/placeholder.png" class="screen3">
-			</div>
-		</div>
+		<div class="wrapper margin-60">	
+			<div class="iphone-background">
+				<iframe src="https://player.vimeo.com/video/156988185?autoplay=1&loop=1&automute=0&autopause=0" width="276" height="491" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>		</div>
 		<div class="wrapper text-align-left">
 			<h2>Feed</h2>
-			<p>From the generated topics, relevant content in the personalized feed section is curated. In the feed settings page, users can add or remove topics, and set subscription settings for individual topics as well as the entire feed. Users can also search for a specific article by clicking on the search icon on the top left.</p>
+			<p>From the generated topics, relevant content in the personalized feed section is curated. In the feed settings page, users can add or remove topics, and set subscription settings for individual topics as well as the entire feed.</p>
 		</div>
 		<div class="wrapper margin-60">
+			<div class="iphone-background">
+				<iframe src="https://player.vimeo.com/video/156941067?autoplay=1&loop=1&automute=0&autopause=0" width="276" height="491" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="wrapper padding-bottom-60">
 			<div class="screen-float-left">
-				<img src="images/webmd/feed1.png" class="screen3 margin-right-30px">
+				<img src="images/webmd/feed1.png" class="screen3 margin-right-50px">
 			</div>
 			<div class="screen-float-left">
-				<img src="images/webmd/feed2.png" class="screen3 margin-right-30px">
+				<img src="images/webmd/feed2.png" class="screen3 margin-right-50px">
 			</div>
 			<div class="screen-float-left">
 				<img src="images/webmd/feed3.png" class="screen3">
 			</div>
 		</div>
 		<div class="wrapper text-align-left">
-			<h2>Tools</h2>
-			<p>The tools on the existing app were given more intuitive names and icons, and were put into the tools section. After a number of feedback and iterations, I decided to put an emphasis on symptom checker, which is the most frequently used function on WebMD based on our research.</p>
-		</div>
-		<div class="wrapper margin-60">
-			<div class="screen-float-left">
-				<img src="images/webmd/tools.png" class="screen3 margin-right-30px">
-			</div>
-			<!-- <div class="slideshow3-div">	
-				<ul class="slideshow3">
-		    		<li class="slideshow-li">
-		        		<input type="radio" name="tools" checked>
-		        		<label for="2"><img src="http://stevesportfol.io/images/webmd/placeholder.png" class="slideshow3-img"></label>
-		      		</li>
-		      		<li class="slideshow-li">
-		        		<input type="radio" name="tools">
-		        		<label for="3"><img src="http://stevesportfol.io/images/webmd/placeholder.png" class="slideshow3-img"></label>
-		      		</li>
-		      		<li class="slideshow-li">
-		       	    	<input type="radio" name="tools">
-		        		<label for="1"><img src="http://stevesportfol.io/images/webmd/placeholder.png" class="slideshow3-img"></label>
-		      		</li>
-		    	</ul>
-		    </div> -->
-		     <div class="screen-float-left">
-				<img src="images/webmd/placeholder.png" class="screen3 margin-right-30px">
-			</div>
-		    <div class="screen-float-left">
-				<img src="images/webmd/placeholder.png" class="screen3">
-			</div>
-		</div>
-		<div class="wrapper text-align-left">
-			<h2>Search</h2>
-			<p>Different topic pages in the existing app were combined into one search section, and were given more intuitive icons. Users can either browse an A-Z list of each category, or use the categories as a search filter.</p>
+			<h2>Tools, Search, MyWebMD</h2>
+			<p>The menu items on the existing app were given more intuitive names and icons.</p>
 		</div>
 		<div class="wrapper margin-top-40">
 			<div class="screen-float-left">
-				<img src="images/webmd/search.png" class="screen3 margin-right-30px">
+				<img src="images/webmd/tools.png" class="screen3 margin-right-50px">
 			</div>
-			<div class="screen-float-left">
-			 <img src="images/webmd/placeholder.png" class="screen3 margin-right-30px">
+		     <div class="screen-float-left">
+				<img src="images/webmd/search.png" class="screen3 margin-right-50px">
 			</div>
-			<div class="screen-float-left">
-				<img src="images/webmd/placeholder.png" class="screen3">
+		    <div class="screen-float-left">
+				<img src="images/webmd/mywebmd.png" class="screen3">
 			</div>
 		</div>
 	</section>
-	<section class="greybg padding-60">	
+	<section class="whitebg padding-80">
 		<div class="wrapper text-align-left">	
-			<h3>What I Have Learned</h3>
-			<p>Through working on this project, I have definitely learned the importance of useful data and well-crafted research in a meaningful design process. The insights we gained from our surveys became the foundation for our ideas and decisions, and acted as a guidance for our process.</p>
-			<p class="m20">Our team as a whole learned to work together efficiently, and maintained an atmosphere of openness and collaboration throughout. We learned to grow on each other's ideas and encourage each other in a productive way. I am very proud of what our team was able to accomplish within a period of two weeks, and we were able to grow so much in a short amount of time. This project was definitely a blast to work on, and I think we are in a much better position to learn more and improve from here on.
+			<h3>Next Steps for WebMD</h3>
+			<ul>
+				<li>Monitor abandonment & skip rate for onboarding process and revisit the amount of questions on form</li>
+				<li>Consider fully redesigning rest of the features on the Tools page</li>
+				<li>Start creating more WebMD exclusive content only accessible through the app</li>
+			</ul>
+		</div>	
+		<div class="wrapper text-align-left padding-top-80">	
+			<h3>What I learned</h3>
+			<h2>Ask the right questions.</h2>
+			<p>In this project, I definitely learned the importance of data and well-crafted research in a design process. Here is what <span class="bold">went well</span>:
+			<ul class="ul-process">
+				<li>We spent the first week and a half on research and brainstorming, which set a solid ground for our designs</li>
+				<li>Being aware of the patterns that showed in our survey responses greatly helped in making our design decisions</li>
+			</ul>
+			<p>Although we got very useful user insights from the free-response questions of the survey, <span class="bold">we made the mistake of creating multiple-choice questions that were too generic</span> which we did not get a lot of useful data from. Since then, I spent some time on learning more about survey design methods, and hope to have better results for my next project.</p>
 		</div>
 	</section>
-	<section class="whitebg padding-40">
-		<div class="wrapper">
-			<div class="toptext">
-				OTHER WORK
-			</div>
-		</div>
-		<div class="otherprojects padding-bottom-40">
-			<div class="card otherprojects-div otherprojects-margin"><!-- <a href="#"> -->
-				<div class="insidecard">
-					<h3 class="projectname">Work in Progress</h3>
-				</div><!-- </a> -->
-			</div>
-			<div class="card otherprojects-div"><!-- <a href="#"> -->
-				<div class="insidecard">
-					<h3 class="projectname">Work in Progress</h3>
-				</div><!-- </a> -->
-			</div>
-		</div>
-		<div class="wrapper">
-			<div class="toptext" id="backtotop">
-				<a href="#">BACK TO TOP <span class="fa fa-caret-up"></span></a>
-			</div>
-		</div>
+	<section class="greybg">
+		<div class="wrapper">	
+			<a href="skew.html"><p class="next-project">Next Project <span class="fa fa-caret-right"></span></p></a>
+		</div>	
 	</section>
 </section>
 	<footer>
@@ -265,6 +436,29 @@
 			</div>
 		</div>
 	</footer>
-
+	<a href="#" id="back-to-top" title="Back to top"><span class="fa fa-caret-up"></span></a>
+	<script>
+if ($('#back-to-top').length) {
+    var scrollTrigger = 200, // px
+        backToTop = function () {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > scrollTrigger) {
+                $('#back-to-top').addClass('show');
+            } else {
+                $('#back-to-top').removeClass('show');
+            }
+        };
+    backToTop();
+    $(window).on('scroll', function () {
+        backToTop();
+    });
+    $('#back-to-top').on('click', function (e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: 0
+        }, 700);
+    });
+}
+</script>
 </body>
 </html>
