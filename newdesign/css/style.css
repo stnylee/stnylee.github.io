@@ -154,24 +154,25 @@ footer {
 }
 
 #rig {
-    width: 600px;
-    margin: 0 auto;
+    width: 500px;
+    margin: 0 auto; /*center aligned*/
     padding: 0;
-    font-size: 0;
-    list-style: none;
-    background-color: #fff;
+    font-size: 0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+    background-color: #ffffff;
 }
-
 #rig li {
     display: inline-block;
+    width: 33.33%;
     vertical-align: middle;
     box-sizing: border-box;
     margin: 0;
-    padding: 2px;
+    padding: 0;
 }
         
 /* The wrapper for each item */
 .rig-cell {
+    margin: 1px;
     display: block;
     position: relative;
     overflow: hidden;
@@ -182,9 +183,11 @@ footer {
     display: block;
     width: 100%;
     height: auto;
+    border: none;
+    transform: scale(1);
     transition: all 1s;
 }
-
+        
 /* If have the overlay layer */
 .rig-overlay {
     position: absolute;
@@ -194,9 +197,10 @@ footer {
     bottom: 0;
     right: 0;
     margin: auto;
-    background: #000000 no-repeat center 20%;
-    opacity: 0;
-    transition: all 0.6s;
+    background: #000000 url(img/link.png) no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    transition:all 0.6s;
 }
 #rig li:hover .rig-overlay {
     opacity:0.8;
@@ -204,30 +208,23 @@ footer {
 
 /* If have captions */
 .rig-text {
-    display: block;
-    padding: 5px 20px;
-    box-sizing: border-box;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 100;
-    font-weight: normal!important;
-    top: 20%;
-    color: #fff;
-    opacity: 0;
-    transform: translateY(-20px);
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:bold;
+    font-weight:normal!important;
+    top:40%;
+    color:white;
+    opacity:0;
+    transform:translateY(-20px);
     transition:all .3s;
 }
-
-.rig-description {
-	font-size: 12px;
-	color: #bfbfbf;
-	line-height: 14px;
-	padding-top: 7px;
-}
-
 #rig li:hover .rig-text {
     transform:translateY(0px);
     opacity:0.9;
@@ -239,60 +236,14 @@ footer {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     #rig li {
-        width: 50%;
+        width:33.33%;
     }
-
-    #rig {
-    width: 414px;
-	}
-
-	 .index-wrapper {
-	    top: 70%;
-	 }
-
 }
 
-@media (max-width: 414px) {
+@media (max-width: 550px) {
     #rig li {
-        width: 100%;
-        padding: 2px 0 2px 0;
-    	}
-
-    #rig {
-	    width: 414px;
-		}
-    
-    .index-wrapper {
-	    top: 180%;
-    	}
-
-	.rig-text {
-    	top: 35%;
-    	}
-
-    #menu {
-		width: 95%;
-
-}
-
-
-
-@media (max-width: 375px) {
-
-    #rig {
-    width: 375px;
-	}
-}
-
-@media (max-width: 320px) {
-
-    #rig {
-    width: 320px;
-	}
-
-	.index-wrapper {
-    top: 170%;
+        width:50%;
     }
 }
