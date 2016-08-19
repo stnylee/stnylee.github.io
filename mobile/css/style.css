@@ -165,7 +165,7 @@ a:hover {
     background-image: url("../images/webmd.svg");
 }
 
-#webmd-thumbnail:hover, #webmd-thumbnail:active #webmd-hover {
+#webmd-thumbnail:hover #webmd-hover {
     visibility: visible;
     opacity: 1;
     transition: visibility 0s, opacity 0.3s ease;
