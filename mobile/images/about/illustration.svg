@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="209px" height="209px" viewBox="0 0 209 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1 Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-1-Copy-4" stroke-width="2">
+            <path d="M137.738281,42 C156.09375,42 168,53.90625 168,72.2617188 L168,138.738281 C168,157.09375 156.09375,169 137.738281,169 L71.2617188,169 C52.90625,169 41,157.09375 41,138.738281 L41,72.2617188 C41,53.90625 52.90625,42 71.2617188,42 L137.738281,42 Z" id="App-Icon-Shape-Copy" stroke="#000000"></path>
+            <path d="M41,41 L169,169 M169,41 L41,169" id="Diagonal" stroke="#1FDA9A" stroke-linecap="square"></path>
+            <path d="M49.25,41 L49.25,169 M105,41 L105,169 M160.75,41 L160.75,169" id="Vertical" stroke="#1FDA9A" stroke-linecap="square"></path>
+            <path d="M41,160.75 L169,160.75 M41,105 L169,105 M41,49.25 L169,49.25" id="Horizontal" stroke="#1FDA9A" stroke-linecap="square"></path>
+            <path d="M105,160.75 C135.789875,160.75 160.75,135.789875 160.75,105 C160.75,74.2101252 135.789875,49.25 105,49.25 C74.2101252,49.25 49.25,74.2101252 49.25,105 C49.25,135.789875 74.2101252,160.75 105,160.75 Z M105,129.25 C118.392905,129.25 129.25,118.392905 129.25,105 C129.25,91.6070948 118.392905,80.75 105,80.75 C91.6070948,80.75 80.75,91.6070948 80.75,105 C80.75,118.392905 91.6070948,129.25 105,129.25 Z" id="Rings" stroke="#1FDA9A"></path>
+        </g>
+    </g>
+</svg>
