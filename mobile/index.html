@@ -15,32 +15,43 @@
 <body>
 <section class="top-black">
 	<div class="wrapper">
-		<div id="navigation">
-			<a href="#"><span class="current-page">HOME</span></a>
-			<a href="about.html"><span>ABOUT</span></a>
-			<a href="resume.html"><span>RESUME</span></a>
-			<a href="mailto:hi@stevesportfol.io"><span>CONTACT</span></a>
+		<div id="logo">
+			<a href="index.html"><p>Steve Lee</p></a>
 		</div>
-	</div>
-</section>
-<section class="first-section">
-	<div class="wrapper">
-		<div class="card">
-			<div class="inside">
-			<div class="section-header">PRODUCT DESIGNER BASED IN SAN FRANCISCO.</div>
-			I'm a San Francisco-based multidisciplinary designer specializing in user experience.
-			Ever since designing my MySpace page in middle school, I've had a passion for creating experiences for the digital space. I love creating simple and intuitive designs and working on products that reach millions of users around the world.
+		<div id="navigation">
+			<div class="navigation-container">
+				<a href="#"><span class="current-page navigation-links">HOME</span><i class="fa fa-home navigation-icons current-page" aria-hidden="true"></i></a></span>
+			</div>
+			<div class="navigation-container">
+				<a href="about.html"><span class="navigation-links">ABOUT</span><i class="fa fa-user navigation-icons" aria-hidden="true"></i></a>
+			</div>
+			<div class="navigation-container resume-icon-size">
+				<a href="resume.html"><span class="navigation-links">RESUME</span><i class="fa fa-file-text navigation-icons" aria-hidden="true"></i></a>
+			</div>
+			<div class="navigation-container">
+				<a href="mailto:hi@stevesportfol.io"><span class="navigation-links">CONTACT</span><i class="fa fa-envelope navigation-icons" aria-hidden="true"></i></a>
 			</div>
 		</div>
 	</div>
 </section>
-<section>
+<section class="index-headline">
+	<div class="wrapper">
+			<div class="index-headline-text">
+				My name is Steve. I'm a San Francisco based
+			</div>
+			<div class="index-headline-typing">
+			<span class="txt-rotate" data-period="2000"
+	 data-rotate='[ "product designer.", "UX architect.", "digital illustrator.", "visual designer.", "tech enthusiast."]'></span><br>
+	 		</div>
+	</div>
+</section>
+<section class="index-thumbnail-section">
 	<div class="wrapper">
 		<div class="thumbnail" id="webmd-thumbnail" onclick="void(0)">
 			<div class="thumbnail-label">
 				<div class="label-shape label-ux">UX</div>
 			</div>
-			<a href="webmd.html">
+			<a href="webmd.html"  target="_blank">
 			<div class="thumbnail-text-overlay" id="webmd-hover">
 				<div class="overlay-content">
 					<p class="overlay-title">
@@ -160,7 +171,7 @@
 			</div>
 			</a>
 		</div>
-		<div class="thumbnail" id="airmax-thumbnail" onclick="void(0)">
+		<div class="thumbnail" onclick="void(0)">
 			<div class="thumbnail-label">
 				<div class="label-shape label-illustration">Illustration</div>
 			</div>
@@ -181,7 +192,7 @@
 			</div>
 			</a>
 		</div>
-		<div class="thumbnail thumbnail-middle" id="icon-thumbnail" onclick="void(0)">
+		<div class="thumbnail thumbnail-middle" onclick="void(0)">
 		<div class="thumbnail-label">
 				<div class="label-shape label-illustration">Illustration</div>
 			</div>
@@ -259,7 +270,8 @@
 		</div>
 		<a href="#level2">
 		<div class="popup-back-to-top">
-		<p>BACK TO TOP <span id="up-arrow">&#9650;</span></p>
+		<p>BACK TO TOP <i class="fa fa-caret-up" aria-hidden="true"></i>
+</p>
         </div>
         </a>
 	</div>
@@ -291,3 +303,56 @@
 <div id="mask" onclick="document.location='#';"></div>
 </body>
 </html>
+<script>
+var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 120 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 1.5; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+};
+</script>
