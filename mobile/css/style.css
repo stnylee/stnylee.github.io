@@ -140,11 +140,7 @@ ul {
 
 #logo {
     float: left;
-    margin-top: 3px;
-}
-
-#logo p {
-    font-size: 1.2em;
+    height: 20px;
 }
 
 #logo a {
@@ -1116,7 +1112,7 @@ a:hover {
     }
 
     .top-black {
-        height: 33px;
+        height: 35px;
         position: fixed;
         bottom: 0;
         width: 100%;
