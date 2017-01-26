@@ -199,6 +199,9 @@ ul {
     text-align: center!important;
 }
 
+.text-align-left {
+    text-align: left!important;
+}
 
 .wrapper {
     max-width:900px;
@@ -211,6 +214,13 @@ ul {
     margin: 0 auto;
     text-align: left;
 }
+
+.cs-wrapper-card {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
 
 .cs-wrapper-800 {
     max-width: 800px;
@@ -273,13 +283,22 @@ a:hover {
     margin-bottom: 8px;
 }
 
+.cs-card {
+    width: 100%;
+    background-color:  #ffffff;
+    display: inline-block;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+
 .inside {
     margin: 0 auto;
     padding: 50px 40px 50px 40px;
 }
 
 #tender-thumbnail {
-    background-image: url("../images/tender.svg");
+    background-image: url("../images/tender.png");
 }
 
 #tender-thumbnail:hover #tender-hover {
@@ -288,8 +307,18 @@ a:hover {
     transition: visibility 0s, opacity 0.3s ease;
 }
 
+#tender-2-thumbnail {
+    background-image: url("../images/tender2.png");
+}
+
+#tender-2-thumbnail:hover #tender-2-hover {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.3s ease;
+}
+
 #webmd-thumbnail {
-    background-image: url("../images/webmd.svg");
+    background-image: url("../images/webmd.png");
 }
 
 #webmd-thumbnail:hover #webmd-hover {
@@ -299,7 +328,7 @@ a:hover {
 }
 
 #skew-thumbnail {
-    background-image: url("../images/skew.svg");
+    background-image: url("../images/skew.png");
 }
 
 #skew-thumbnail:hover #skew-hover {
@@ -309,7 +338,7 @@ a:hover {
 }
 
 #bigcommerce-thumbnail {
-    background-image: url("../images/bigcommerce.svg");
+    background-image: url("../images/bigcommerce.png");
 }
 
 #bigcommerce-thumbnail:hover #bigcommerce-hover {
@@ -349,8 +378,8 @@ a:hover {
 }
 
 #airmax-thumbnail {
-    background-image: url("../images/airmax.svg");
-}
+/*    background-image: url("../images/airmax.svg");
+*/}
 
 #airmax-thumbnail:hover #airmax-hover {
     visibility: visible;
@@ -526,6 +555,10 @@ a:hover {
     margin-bottom: 80px;
 }
 
+.m-b-160 {
+    margin-bottom: 160px;
+}
+
 .m-t-10 {
     margin-top: 10px;
 }
@@ -536,6 +569,14 @@ a:hover {
 
 .m-t-40 {
     margin-top: 40px;
+}
+
+.m-t-80 {
+    margin-top: 80px;
+}
+
+.m-t-160 {
+    margin-top: 160px;
 }
 
 .p-b-40 {
@@ -736,6 +777,11 @@ a:hover {
     text-align: center;
 }
 
+.popup-image-width {
+    width: 100%;
+    max-width: 800px;
+}
+
 .popup-label {
     font-size: 0.9em;
     font-weight: bold;
@@ -790,6 +836,17 @@ a:hover {
     opacity: 1;
 }
 
+#sproutlingapparel:target, #sproutlingapparel:target + #mask {
+    display: block;
+    opacity: 1;
+}
+
+#icons:target, #icons:target + #mask {
+    display: block;
+    opacity: 1;
+}
+
+
 /* ------------------------- OVERLAY POPUP-------------------------- */
 
 /* ------------------------- CASE STUDY -------------------------- */
@@ -813,6 +870,17 @@ a:hover {
     float: right;
 }
 
+.cs-40 {
+    width: 35%;
+    float: left;
+}
+
+.cs-60 {
+    width: 55%;
+    float: left;
+    padding-left: 40px;
+}
+
 .cs-50-middle {
     width: 50%;
     margin-left: auto;
@@ -823,6 +891,7 @@ a:hover {
 .cs-33 {
     width: 33%;
     float: left;
+    text-align: center;
 }
 
 .cs-logo {
@@ -900,12 +969,14 @@ a:hover {
     float: left;
     padding-top: 10px;
     width: 400px;
+    margin-top: 100px;
 }
 
 .cs-banner-right {
     float: right;
     padding-top: 10px;
     width: 400px;
+    margin-top: 100px;
 }
 
 .cs-banner-header {
@@ -922,6 +993,13 @@ a:hover {
     padding-bottom: 10px;
 }
 
+.cs-banner-header-small {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
 .cs-banner-top-middle {
     width: 100%;
     padding-bottom: 80px;
@@ -929,9 +1007,18 @@ a:hover {
     line-height: 40px;
 }
 
+.cs-banner-top-small {
+    width: 100%;
+    font-size: 0.75em;
+} 
 
 .webmd-bg-blue {
     background-color: #2782CB!important;
+    color: #ffffff!important;
+}
+
+.skew-bg-green {
+    background-color: #61C275!important;
     color: #ffffff!important;
 }
 
@@ -961,17 +1048,17 @@ a:hover {
 .survey-note-blue {
     width: 15px;
     height: 15px;
-    background-color: #00ff00;
+    background-color: #2782CB;
     float: left;
     display: block;
     margin: 3px 20px 0 0;
 }
 
 
-.survey-note-green {
+.survey-note-lightblue {
     width: 15px;
     height: 15px;
-    background-color: #00ffff;
+    background-color: #93C0E5;
     float: left;
     display: block;
     margin: 3px 20px 0 0;
@@ -1006,6 +1093,159 @@ a:hover {
     margin: 0 auto;
 }
 
+#skew-logo-main {
+    width: 260px;
+    margin-bottom: -20px;
+}
+
+.comparative {
+    width: 43%;
+    margin-right: 20px;
+    margin-top: -10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.skew-line {
+    width: 300px;
+}
+
+.skew-illustration {
+    width: 400px;
+}
+
+.gif-screen {
+    width: 276px;
+    margin: 0 auto;
+}
+
+.skew-3-solutions {
+    width: 50%;
+}
+
+/*WEBMD*/
+
+.personatitle {
+    color: #fafafa;
+    font-size: 2em;
+    font-weight: 500;
+    padding: 12px 0 10px 30px;
+}
+
+.bg-webmd {
+    background-color: #2783CB;
+}
+
+.bg-skew {
+    background-color: #61C275;
+}
+
+.persona {
+    margin-top: 30px;
+    padding-top: 0;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.personaone {
+    background-color: #fafafa;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.persona-description {
+    float: right;
+    width: 65%;
+    padding: 30px;
+}
+
+.personatwo {
+    height: 150px;
+    padding: 30px;
+}
+
+.personatwo-left {
+    width: 45%;
+    float: left;
+    padding-right: 10px;
+}
+
+.personatwo-right {
+    width: 45%;
+    float: right;
+}
+
+.persona-occupation {
+    font-size: 1.25em;
+    font-weight: 500;
+    color: #979797;
+}
+
+.personapic {
+    width: 200px;
+    padding: 30px;
+}
+
+.persona-quote {
+    color: #979797;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+.user-flow-div {
+    margin-top: 80px;
+}
+
+#scale-image {
+    width: 300px;
+    float: right;
+}
+
+#skew-branding {
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#skew-icon-div {
+    width: 66%;
+    text-align: center;
+    margin: 0 auto;  
+}
+
+#skew-app-icon {
+    width: 200px;
+    float: left;
+}
+
+#skew-logo {
+    width: 150px;
+    padding: 0px 80px 20px 0;
+    float: right;
+    display: inline;
+}
+
+.skew-section-div {
+    width: 80%;
+    margin: 0 auto; 
+    padding-top: 40px;   
+}
+
+.styleguide-gif {
+    width: 50px;
+}
+
+#skew-color-img {
+    width: 100%;
+    padding-top: 20px;
+}
+
+#skew-font-div {
+    display: inline-block;
+    padding-top: 60px;
+}
+
+/*WEBMD*/
+
 /* ------------------------- CASE STUDY -------------------------- */
 
 
@@ -1030,6 +1270,25 @@ a:hover {
     margin: 10vw 0 10vw 0;
 }
 /* ------------------------- LEVEL 2 -------------------------- */
+
+/*APPAREL*/
+
+.background-apparel {
+    background-color: #2f2f2f;
+}
+
+.apparel-illustration {
+    width: 150px;
+    margin: 15vw 0 15vw 0;
+}
+
+/*APPAREL*/
+
+@media only screen and (max-width: 1000px) {
+  .cs-wrapper {
+        width: 90%;
+    }
+}
 
 
 @media only screen and (max-width: 900px) {
@@ -1073,13 +1332,9 @@ a:hover {
         padding: 40px 20px 40px 20px;
     }
 
-    .cs-card {
-        padding: 20px;
-    }
-
     .thumbnail {
         background-size: 125%;
-        background-position: 50% 0%; 
+        background-position: 50% 50%; 
         margin: 0;
         display: block;
         width: 33.33vw;
@@ -1110,6 +1365,7 @@ a:hover {
 
     .popup-window {
         width: 100%;
+        max-width: 1000px;
         padding: 0;
         top: 0%;
         left: 0;
@@ -1207,16 +1463,40 @@ a:hover {
 
     /*---CASE STUDY-----*/
 
-    .cs-banner-header {
-        width: 90%;
+
+    .cs-wrapper-card {
+        width: 100%;
     }
 
-    .cs-banner-subheader {
-        width: 90%;
+    .cs-33 {
+        width: 51%;
+        display: block;
+        margin: 0 auto 80px auto;
+        float: none;
+    }
+    
+    .cs-card {
+        width: 100%;
     }
 
     .cs-top-banner-left {
         float: none;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: -200px;
+        text-align: center;
+    }
+
+    .cs-banner-top-middle {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cs-banner-header {
+        margin: 0 auto;
+    }
+
+    .cs-banner-subheader {
         margin: 0 auto;
     }
 
@@ -1236,6 +1516,62 @@ a:hover {
         margin: 80px auto 0 auto;
         float: none!important;
     }
+
+    #finaldesign {
+            background-position: bottom;
+            background-size: 80%;
+            padding-bottom: 100px;   
+    }
+
+    .persona-description {
+    width: 90%;
+    padding: 5%;
+}
+
+.personatwo-left {
+    width: 100%;
+}
+
+.personatwo-right {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.personapic {
+    margin: 0 auto!important;
+    display: block;
+}
+
+.user-flow-div {
+    margin-top: 0;
+}
+
+#scale-image {
+    float: none;
+    display: block;
+    margin: 40px auto 0 auto;
+}
+
+
+#skew-branding {
+    width: 100%;
+}
+
+#skew-app-icon {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+}
+
+#skew-logo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+}
+
+
 
 }
 
@@ -1355,6 +1691,35 @@ a:hover {
     width: 100%;
     }
 
+    .cs-40 {
+        width: 100%;
+    }
+
+    .cs-60 {
+        width: 100%;
+        padding-left: 0;
+    }
+
+
+    .screen-four {
+        width: 335px;
+        margin: 20px auto 20px auto;
+        display: block;
+    }
+
+      .comparative {
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 30px;
+        width: 75%;
+    }
+
+    .skew-illustration {
+        width: 75%;
+        margin: 0 auto!important;
+        display: block;
+        padding-top: 40px;
+    }
 
 
 }
